@@ -5,8 +5,8 @@
 - Homework
 
   - ~~APIs and Further Exploration Objectives~~
-  - Making an API Call with fetch()
-  - Introduction to Redux Middleware
+  - ~~Making an API Call with fetch()~~
+  - ~~Introduction to Redux Middleware~~
   - Building an API Application with React and Redux
   - Writing Custom Middleware
   - Async Actions with Redux Thunk
@@ -43,3 +43,7 @@
 I'm not gonna lie... when I implement queryable results for 12.6 million unique product images alone I'm pretty sure I can mic drop.
 
 <img width="220" height="172" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/obama-mic-drop.gif">
+
+<h4 align="left"> 9/25/2020 - 2:09pm</h4>
+
+- Watch Cloud Firestore Data Modeling
