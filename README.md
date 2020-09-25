@@ -28,3 +28,4 @@
 * look into charts.js
 * final pass through of linked-in
 * final pass through of generic resume'
+* email nina final pieces 10/7 (i think, check on this)
