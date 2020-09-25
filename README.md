@@ -29,3 +29,6 @@
 * final pass through of linked-in
 * final pass through of generic resume'
 * email nina final pieces 10/7 (i think, check on this)
+
+
+<img width="220" height="172" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/im-so-excited.gif">
