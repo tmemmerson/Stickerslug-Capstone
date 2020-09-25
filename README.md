@@ -40,8 +40,6 @@
   - get my parental data sheets
   - find and verify image locations are accessible for all 12.6 million products
 
-I'm not gonna lie... when I implement queryable results for 12.6 million unique product images alone I'm pretty sure I can mic drop.
-
 <img width="220" height="172" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/obama-mic-drop.gif">
 
 <h4 align="left"> 9/25/2020 - 2:09pm</h4>
