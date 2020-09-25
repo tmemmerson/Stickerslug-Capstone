@@ -22,10 +22,9 @@
     * Further Exploration: Animations with React
     *  Further Exploration: Animations with React
     * Further Exploration: SEO with React
-    * Research internship companies
-    * Rank internship companies
 
-
+* Research internship companies
+* Rank internship companies
 * look into charts.js
 * final pass through of linked-in
 * final pass through of generic resume'
