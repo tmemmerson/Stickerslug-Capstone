@@ -44,4 +44,4 @@
 
 <h4 align="left"> 9/25/2020 - 2:09pm</h4>
 
-- Watch Cloud Firestore Data Modeling
+- ~~Watch Cloud Firestore Data Modeling~~
