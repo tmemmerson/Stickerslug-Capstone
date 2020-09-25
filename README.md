@@ -7,9 +7,9 @@
   - ~~APIs and Further Exploration Objectives~~
   - ~~Making an API Call with fetch()~~
   - ~~Introduction to Redux Middleware~~
-  - Building an API Application with React and Redux
-  - Writing Custom Middleware
-  - Async Actions with Redux Thunk
+  - ~~Building an API Application with React and Redux~~
+  - ~~Writing Custom Middleware~~
+  - ~~Async Actions with Redux Thunk~~
   - Building an API Application with React and Redux: Part 2
   - Full Stack Development Project
   - Further Exploration Topics
@@ -46,4 +46,4 @@
 
 <h4 align="left"> 9/25/2020 - 4:04pm</h4>
 
-- watch more youtube videos on Firestore database structures and limitations
+- ~~watch more youtube videos on Firestore database structures and limitations~~
