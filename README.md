@@ -27,3 +27,4 @@
 
 
 * look into charts.js
+* final pass through of linked-in
