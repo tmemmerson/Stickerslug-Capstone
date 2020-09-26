@@ -63,3 +63,7 @@
 - Re-read thinking in React
 
 - Research seeding firestore databases
+
+<h4 align="left"> 9/26/2020 - 4:05pm</h4>
+
+- Consider exporting reports with BigQuery: Connected Sheets
