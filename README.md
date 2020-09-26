@@ -10,7 +10,7 @@
   - ~~Building an API Application with React and Redux~~
   - ~~Writing Custom Middleware~~
   - ~~Async Actions with Redux Thunk~~
-  - Building an API Application with React and Redux: Part 2
+  - ~~Building an API Application with React and Redux: Part 2~~
   - Full Stack Development Project
   - Further Exploration Topics
   - Pitching Your Capstone
