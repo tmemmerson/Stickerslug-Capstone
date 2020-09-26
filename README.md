@@ -16,7 +16,7 @@
   - ~~Pitching Your Capstone~~
   - ~~Further Exploration: React Native~~
   - ~~Further Exploration: React Hooks~~
-  - Further Exploration: Creating a Custom React Environment
+  - ~~Further Exploration: Creating a Custom React Environment~~
   - Further Exploration: Data Visualization
   - Further Exploration: Animations with React
   - Further Exploration: Animations with React
