@@ -54,3 +54,4 @@
 
 * finish writing out your pitch notes and time yourself
 * read about Effect Hook
+* clear out bookmarks
