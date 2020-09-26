@@ -25,6 +25,9 @@
 - Research internship companies
 - Rank internship companies
 - look into charts.js
+
+- look into D3.js
+
 - final pass through of linked-in
 - final pass through of generic resume'
 - email nina final pieces 10/7 (i think, check on this)
@@ -52,12 +55,12 @@
 
 - watch demo day pitch: make your 5 minutes memorable
 
-* finish writing out your pitch notes and time yourself
-* read about Effect Hook
-* clear out bookmarks
+- finish writing out your pitch notes and time yourself
+- read about Effect Hook
+- clear out bookmarks
 
 <h4 align="left"> 9/26/2020 - 2:45pm</h4>
 
 - Re-read thinking in React
 
-* Research seeding firestore databases
+- Research seeding firestore databases
