@@ -53,3 +53,4 @@
 - watch demo day pitch: make your 5 minutes memorable
 
 * finish writing out your pitch notes and time yourself
+* read about Effect Hook
