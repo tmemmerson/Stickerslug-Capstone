@@ -19,7 +19,7 @@
   - ~~Further Exploration: Creating a Custom React Environment~~
   - ~~Further Exploration: Data Visualization~~
   - ~~Further Exploration: Animations with React~~
-  - Further Exploration: SEO with React
+  - ~~Further Exploration: SEO with React~~
 
 - Research internship companies
 - Rank internship companies
