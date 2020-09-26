@@ -13,7 +13,7 @@
   - ~~Building an API Application with React and Redux: Part 2~~
   - ~~Full Stack Development Project~~
   - ~~Further Exploration Topics~~
-  - Pitching Your Capstone
+  - ~~Pitching Your Capstone~~
   - Further Exploration: React Native
   - Further Exploration: React Hooks
   - Further Exploration: Creating a Custom React Environment
@@ -51,3 +51,5 @@
 <h4 align="left"> 9/26/2020 - 12:24pm</h4>
 
 - watch demo day pitch: make your 5 minutes memorable
+
+* finish writing out your pitch notes and time yourself
