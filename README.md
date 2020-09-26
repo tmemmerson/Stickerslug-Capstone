@@ -49,3 +49,5 @@
 - ~~watch more youtube videos on Firestore database structures and limitations~~
 
 <h4 align="left"> 9/26/2020 - 12:24pm</h4>
+
+- watch demo day pitch: make your 5 minutes memorable
