@@ -12,7 +12,7 @@
   - ~~Async Actions with Redux Thunk~~
   - ~~Building an API Application with React and Redux: Part 2~~
   - ~~Full Stack Development Project~~
-  - Further Exploration Topics
+  - ~~Further Exploration Topics~~
   - Pitching Your Capstone
   - Further Exploration: React Native
   - Further Exploration: React Hooks
