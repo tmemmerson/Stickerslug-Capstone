@@ -59,3 +59,5 @@
 <h4 align="left"> 9/26/2020 - 2:45pm</h4>
 
 - Re-read thinking in React
+
+* Research seeding firestore databases
