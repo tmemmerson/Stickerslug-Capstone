@@ -1,0 +1,8 @@
+Quickly introduce yourself.
+Quickly summarize what your application does.
+Identify pain points.
+  * managing everything in spreadsheets for 10 years
+  * business grew but solutions didn't
+Discuss your solution.
+Demo the application.
+Use Slides?
