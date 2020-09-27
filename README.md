@@ -24,7 +24,6 @@
 - Research internship companies
 - Rank internship companies
 - look into charts.js
-
 - look into D3.js
 
 - final pass through of linked-in
@@ -56,7 +55,7 @@
 
 - finish writing out your pitch notes and time yourself
 - read about Effect Hook
-- clear out bookmarks
+- ~~clear out bookmarks~~
 
 <h4 align="left"> 9/26/2020 - 2:45pm</h4>
 
