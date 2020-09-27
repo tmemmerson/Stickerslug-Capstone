@@ -74,3 +74,9 @@
 
 <h4 align="left"> 9/27/2020 - 11:55am</h4>
 <img width="220" height="172" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/sleepy.gif">
+
+- Reports
+  - Shipped Items
+  - Shipping Cost
+  - Country Comparison
+  - Customers
