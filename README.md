@@ -61,7 +61,7 @@
 
 - Re-read thinking in React
 
-- Research seeding firestore databases
+- ~~Research seeding firestore databases~~
 
 <h4 align="left"> 9/26/2020 - 4:05pm</h4>
 
@@ -71,3 +71,6 @@
 <h4 align="left"> 9/26/2020 - 11:35pm</h4>
 
 - ~~start routing elements~~
+
+<h4 align="left"> 9/27/2020 - 11:55am</h4>
+<img width="220" height="172" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/sleepy.gif">
