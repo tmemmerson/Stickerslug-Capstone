@@ -92,17 +92,10 @@
     - ~~2018~~
     - ~~2019~~
 
-  * Shipping Cost
+  ~~\* Shipping Cost~~
+  report errors
 
-    - 2013
-    - 2014
-    - 2015
-    - 2016
-    - 2017
-    - 2018
-    - 2019
-
-  * Country Comparison
+  - Country Comparison
 
     - ~~2013~~
     - ~~2014~~
@@ -112,7 +105,7 @@
     - ~~2018~~
     - ~~2019~~
 
-  * Customers
+  - Customers
 
     - ~~2013~~
     - ~~2014~~
@@ -120,9 +113,9 @@
     - ~~2016~~
     - ~~2017~~
     - ~~2018~~
-    - 2019
+    - ~~2019~~
 
-  * Clean Shipped Items
-  * Clean Shipping Cost
-  * Clean Country Comparison
-  * Clean Customers
+  - Clean Shipped Items
+  - Clean Shipping Cost
+  - Clean Country Comparison
+  - Clean Customers
