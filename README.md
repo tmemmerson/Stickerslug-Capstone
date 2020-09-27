@@ -113,6 +113,7 @@
     - 2019
 
   * Customers
+
     - 2013
     - 2014
     - 2015
@@ -120,3 +121,8 @@
     - 2017
     - 2018
     - 2019
+
+  * Clean Shipped Items
+  * Clean Shipping Cost
+  * Clean Country Comparison
+  * Clean Customers
