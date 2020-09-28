@@ -123,7 +123,7 @@
 * Data
   - ~~combine country comparison~~
   - ~~combine shipped items~~
-  - Clean Shipped Items
+  - ~~Clean Shipped Items~~
   - ~~Clean Country Comparison~~
 
 I.AM.SO.DEAD.NEED.SLEEP.NOW.
