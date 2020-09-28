@@ -121,7 +121,7 @@
   - Consider exporting reports with BigQuery: Connected Sheets
 
 * Data
-  - combine country comparison
+  - ~~combine country comparison~~
   - combine customers
   - combine shipped items
   - Clean Shipped Items
