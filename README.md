@@ -122,6 +122,6 @@
 
 * Data
   - ~~combine country comparison~~
-  - combine shipped items
+  - ~~combine shipped items~~
   - Clean Shipped Items
   - ~~Clean Country Comparison~~
