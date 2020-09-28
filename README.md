@@ -119,3 +119,9 @@
   - Clean Shipping Cost
   - Clean Country Comparison
   - Clean Customers
+
+<h4 align="left"> 9/27/2020 - 7:28pm</h4>
+
+- combine country comparison
+- combine customers
+- combine shipped items
