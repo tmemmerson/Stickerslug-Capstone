@@ -96,9 +96,8 @@
 
 - Capstone
 
-  - get ebay product format fields
-  - get amazon product format fields
-  - get etsy product format fields
+  - ~~get amazon product format fields~~ //stretch goal
+  - ~~get etsy product format fields~~ //deep stretch goal
   - get my parental data sheets
   - find and verify image locations are accessible for all 12.6m
   - watch demo day pitch: make your 5 minutes memorable
@@ -126,4 +125,4 @@
   - ~~Clean Shipped Items~~
   - ~~Clean Country Comparison~~
 
-I.AM.SO.DEAD.NEED.SLEEP.NOW.
+<h4 align="left"> 9/28/2020 - 12:38pm</h4>
