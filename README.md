@@ -115,7 +115,7 @@
 * General
 
   - read about Effect Hook
-  - Re-read thinking in React
+  - ~~Re-read thinking in React~~
   - look into charts.js
   - look into D3.js
   - Consider exporting reports with BigQuery: Connected Sheets
