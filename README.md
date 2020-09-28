@@ -126,3 +126,5 @@
   - ~~Clean Country Comparison~~
 
 <h4 align="left"> 9/28/2020 - 12:38pm</h4>
+
+- find main product data
