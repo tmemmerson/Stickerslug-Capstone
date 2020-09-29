@@ -98,7 +98,7 @@
 
   - ~~get amazon product format fields~~ //stretch goal
   - ~~get etsy product format fields~~ //deep stretch goal
-  - get my parental data sheets
+  - ~~get my parental data sheets~~
   - find and verify image locations are accessible for all 12.6m
   - watch demo day pitch: make your 5 minutes memorable
 
