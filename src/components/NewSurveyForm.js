@@ -41,3 +41,27 @@ NewSurveyForm.propTypes = {
 };
 
 export default NewSurveyForm;
+
+// const collectionProducts = db.colleciton("products");
+// const 10001 = db.collection("products").doc("10001");
+
+/* const data = {
+  name: "Los Angeles",
+  state: "CA",
+  country: "USA",
+};
+
+const res = await db.collection("products").doc("10001").set(data10001);
+ */
+
+var usersRef = ref.child("users");
+usersRef.set({
+  alanisawesome: {
+    date_of_birth: "June 23, 1912",
+    full_name: "Alan Turing",
+  },
+  gracehop: {
+    date_of_birth: "December 9, 1906",
+    full_name: "Grace Hopper",
+  },
+});
