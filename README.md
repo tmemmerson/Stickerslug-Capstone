@@ -127,4 +127,6 @@
 
 <h4 align="left"> 9/28/2020 - 12:38pm</h4>
 
-- find main product data
+- ~~find main product data~~
+
+<h4 align="left"> 9/29/2020 - 11:30am</h4>
