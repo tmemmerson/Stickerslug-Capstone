@@ -135,8 +135,10 @@
 <p>i cant solve how to efficiency upload all this product data. i think i can write some 
 middleware (i think that's what it would be) to handle that. just pass the json data in.</p>
 
-- move data into assets
-- move index into assets
-- move package into assets
-- move package-lock into assets
-- move serviceAccountKey into assets
+- ~~move data into assets~~
+- ~~move index into assets~~
+- ~~move package into assets~~
+- ~~move package-lock into assets~~
+- ~~move serviceAccountKey into assets~~
+
+* total side thought: I need to quick netlify those domains i have sitting in 101
