@@ -188,4 +188,4 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 
 * write middleware index
 * integrate peripherals for middleware
-* swap favicon out
+* ~~swap favicon out~~
