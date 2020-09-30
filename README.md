@@ -6,8 +6,6 @@
 
 ## **Purpose/Goal:**
 
-<h1></h1>
-
 - As an admin I want to be able to delete the hundreds of spreadsheets I am currently using to manage all of our product data
 - As an admin I want to be able to inventorize all of my product data
 - As an admin I want to be able to query data at a granular level (deep skus)
@@ -52,8 +50,14 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 - Etsy API (I don't think this one actually exists, but possibly 3rd-party)
 - Entity framework
 
-<h1></h1>
+<br>
+<br>
+<br>
+<br>
 
+<h1>
+<h1 align="center">
+ACTIVITY LOG</h1>
 <h4 align="left"> 9/24/2020 - 11:22pm 
 <h4 align="left">
   <img width="220" height="113" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/it-has-begun.gif">
