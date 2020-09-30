@@ -1,3 +1,47 @@
+# _**<h1>Capstone Proposal**_
+
+### **Tristan Emmerson**
+
+### Project: Stickerslug
+
+<h1></h1>
+
+## **Purpose/Goal:**
+
+<h1></h1>
+Create a queryable product database API for a business, and the client companion for interfacing with the database. This project is one that I wish I had the skills to write while I was running my business. This database problem was the impetus to my entering programming. Currently all the data resides in various csv's.
+
+MVP:
+
+A database that is single-field queryable for "raw data" of a parent product sku.
+Products information is queryable at a basal serial level.
+
+What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+
+- Firebase/MySQL Workbench/PostgresSQL for database API
+- React for the client to interface with API
+- VSCode to write it all
+- Bootstrap to make it pretty
+
+If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+
+- Seed some portion of child data points for variants
+- Add photo representation of queried product.
+- Add marketplace specified field headers for parent data.
+- Create exportable reports that interface with various marketplaces (amz/etsy/ebay/.com) and follow their product data format.
+- Interface with AMZ SellerCentral API for product information update.
+- admin authentication
+
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+
+- Adobe Photoshop
+- Adobe Illustrator
+- AMZ S3
+- Seller Central API
+- eBay API
+- Etsy API (I don't think this one actually exists, but possibly 3rd-party)
+- Entity framework
+
 <h4 align="left"> 9/24/2020 - 11:22pm 
 <h4 align="left">
   <img width="220" height="113" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/it-has-begun.gif">
@@ -144,3 +188,4 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 
 * write middleware index
 * integrate peripherals for middleware
+* swap favicon out
