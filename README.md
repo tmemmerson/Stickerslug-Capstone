@@ -141,3 +141,6 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 - ~~move serviceAccountKey into assets~~
 
 * total side thought: I need to quick netlify those domains i have sitting in 101
+
+* write middleware index
+* integrate peripherals for middleware
