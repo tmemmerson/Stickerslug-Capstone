@@ -129,4 +129,8 @@
 
 - ~~find main product data~~
 
-<h4 align="left"> 9/29/2020 - 11:30am</h4>
+<h4 align="left"> 9/30/2020 - 11:02am</h4>
+<img width="220" height="172" src="https://media1.giphy.com/media/111feFJzkob5oQ/giphy.gif">
+
+<p>i cant solve how to efficiency upload all this product data. i think i can write some 
+middleware (i think that's what it would be) to handle that. just pass the json data in.</p>
