@@ -1,27 +1,37 @@
-# _**<h1>Capstone Proposal**_
+# _**<h1>Capstone: Stickerslug**_
 
 ### **Tristan Emmerson**
-
-### Project: Stickerslug
 
 <h1></h1>
 
 ## **Purpose/Goal:**
 
 <h1></h1>
-Create a queryable product database API for a business, and the client companion for interfacing with the database. This project is one that I wish I had the skills to write while I was running my business. This database problem was the impetus to my entering programming. Currently all the data resides in various csv's.
 
-MVP:
+- As an admin I want to be able to delete the hundreds of spreadsheets I am currently using to manage all of our product data
+- As an admin I want to be able to inventorize all of my product data
+- As an admin I want to be able to query data at a granular level (deep skus)
+- As an admin I want to be able to query more complex ranges of products by field data
+
+Pain Point: As my business scaled over the years, my inventory system could not keep pace with the quantity of products Stickerslug was offering. Updating and making changes became arduous and time-consuming.
+
+<h1></h1>
+
+## **MVP:**
 
 A database that is single-field queryable for "raw data" of a parent product sku.
 Products information is queryable at a basal serial level.
 
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
-- Firebase/MySQL Workbench/PostgresSQL for database API
-- React for the client to interface with API
+- Firebase database
+- React client interface
 - VSCode to write it all
 - Bootstrap to make it pretty
+
+<h1></h1>
+
+## **Stretch Goals:**
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
@@ -41,6 +51,8 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 - eBay API
 - Etsy API (I don't think this one actually exists, but possibly 3rd-party)
 - Entity framework
+
+<h1></h1>
 
 <h4 align="left"> 9/24/2020 - 11:22pm 
 <h4 align="left">
