@@ -4,8 +4,8 @@
 
 <h1></h1>
 
-## **Purpose/Goal:**
-
+<h1 align="left">
+Purpose/Goal:</h1>
 - As an admin I want to be able to delete the hundreds of spreadsheets I am currently using to manage all of our product data
 - As an admin I want to be able to inventorize all of my product data
 - As an admin I want to be able to query data at a granular level (deep skus)
@@ -15,7 +15,8 @@ Pain Point: As my business scaled over the years, my inventory system could not 
 
 <h1></h1>
 
-## **MVP:**
+<h1 align="left">
+MVP:</h1>
 
 A database that is single-field queryable for "raw data" of a parent product sku.
 Products information is queryable at a basal serial level.
@@ -29,7 +30,8 @@ What tools, frameworks, libraries, APIs, modules and/or other resources (whateve
 
 <h1></h1>
 
-## **Stretch Goals:**
+<h1 align="left">
+Stretch Goals:</h1>
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
