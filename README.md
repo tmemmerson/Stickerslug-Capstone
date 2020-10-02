@@ -190,7 +190,7 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 - Kiddie Kredit
   - ~~research~~
   - ~~resume~~/~~cover~~
-  - email docs
+  - ~~email docs~~
 # Saturday 10/3
 - Tura Labs
   - research
