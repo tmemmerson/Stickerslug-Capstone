@@ -177,7 +177,7 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 - watch videos on Gatsby
 - side thought: I need to quick netlify domains i have in 101
 - Consider exporting reports with BigQuery: Connected Sheets
-
+- outing next week?
 
 
 
