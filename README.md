@@ -210,3 +210,5 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 
 * read up on internship companies
 * watch videos on Gatsby
+
+* consider implementing a "needs reviewed" checkbox
