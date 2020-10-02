@@ -1,6 +1,6 @@
-# _**<h1>Capstone: Stickerslug**_
+# _--<h1>Capstone: Stickerslug--_
 
-### **Tristan Emmerson**
+### --Tristan Emmerson--
 
 <h1></h1>
 
@@ -105,14 +105,11 @@ ACTIVITY LOG</h1>
 <img width="220" height="172" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/sleepy.gif">
 
 - ~~Reports~~
-
   - ~~Shipped Items~~
   - ~~Shipping Cost~~
   - ~~Country Comparison~~
   - ~~Customers~~
-
-  * ~~Shipped Items~~
-
+  - ~~Shipped Items~~
     - ~~2013~~
     - ~~2014~~
     - ~~2015~~
@@ -121,10 +118,8 @@ ACTIVITY LOG</h1>
     - ~~2018~~
     - ~~2019~~
 
-  ~~\* Shipping Cost~~
-
+  ~~Shipping Cost~~
   - ~~Country Comparison~~
-
     - ~~2013~~
     - ~~2014~~
     - ~~2015~~
@@ -132,9 +127,7 @@ ACTIVITY LOG</h1>
     - ~~2017~~
     - ~~2018~~
     - ~~2019~~
-
-  - ~~Customers~~ leaving for late stretch-goal
-
+  - ~~Customers~~
     - ~~2013~~
     - ~~2014~~
     - ~~2015~~
@@ -142,19 +135,14 @@ ACTIVITY LOG</h1>
     - ~~2017~~
     - ~~2018~~
     - ~~2019~~
-
 - ~~Capstone~~
-  - ~~get amazon product format fields~~ //stretch goal
-  - ~~get etsy product format fields~~ //deep stretch goal
+  - ~~get amazon product format fields~~ 
+  - ~~get etsy product format fields~~
   - ~~get my parental data sheets~~
   - ~~find and verify image locations are accessible for all 12.6m~~
-
-
-* ~~General~~
-
+- ~~General~~
   - ~~Re-read thinking in React~~
-
-* ~~Data~~
+- ~~Data~~
   - ~~combine country comparison~~
   - ~~combine shipped items~~
   - ~~Clean Shipped Items~~
@@ -175,64 +163,59 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 - ~~move package into assets~~
 - ~~move package-lock into assets~~
 - ~~move serviceAccountKey into assets~~
-* ~~swap favicon out~~
+- ~~swap favicon out~~
 - ~~Rank internship companies~~
-
 
 <h4 align="left"> 10/02/20</h4>
 
 
 ## Misc
-* reclamation form
+- reclamation form
 - look into charts.js
 - look into D3.js
 - read about Effect Hook
-* watch videos on Gatsby
-* side thought: I need to quick netlify domains i have in 101
+- watch videos on Gatsby
+- side thought: I need to quick netlify domains i have in 101
 - Consider exporting reports with BigQuery: Connected Sheets
 
-## Internships
-* final-pass linked-in
-* final-pass github
-* Goalden Hour
-  * research
-  * resume/cover
-  * email docs
-* Go Paladin
-  * research
-  * resume/cover
-  * email docs
-* KhulaCo
-  * research
-  * resume/cover
-  * email docs
-* Tura Labs
-  * research
-  * resume/cover
-  * email docs
-* Kiddie Kredit
-  * research
-  * resume/cover
-  * email docs
+
+
 
 ## Functionality
-* "needs reviewed" checkbox
-* write middleware index
-* integrate peripherals for middleware
-
-## Demo Day
-- watch demo day pitch: make your 5 minutes memorable
-
-
-- write pitch outline
-  * audio
-  * video
-- practice pitch/time-self
-
+- "needs reviewed" checkbox
+- write middleware index
+- integrate peripherals for middleware
 
 # Friday 10/2
+- Kiddie Kredit
+  - ~~research~~
+  - ~~resume~~/cover
+  - email docs
 # Saturday 10/3
+- Tura Labs
+  - research
+  - ~~resume~~/cover
+  - email docs
 # Sunday 10/4
+- Goalden Hour
+  - research
+  - ~~resume~~/cover
+  - email docs
 # Monday 10/5
+- KhulaCo
+  - research
+  - ~~resume~~/cover
+  - email docs
 # Tuesday 10/6
+- Go Paladin
+  - research
+  - ~~resume~~/cover
+  - email docs
 # Wednesday 10/7
+## Demo Day
+- watch demo day pitch: make your 5 minutes memorable
+- write pitch outline audio
+- write pitch outline video
+- practice pitch/time-self
+- record demo
+- edit demo 
