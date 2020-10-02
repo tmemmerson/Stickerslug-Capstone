@@ -176,26 +176,63 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 - ~~move package-lock into assets~~
 - ~~move serviceAccountKey into assets~~
 * ~~swap favicon out~~
-
+- ~~Rank internship companies~~
 
 
 <h4 align="left"> 10/02/20</h4>
 
-* consider implementing a "needs reviewed" checkbox
-* Reclamation Form
-* read up on internship companies
-* watch videos on Gatsby
-* side thought: I need to quick netlify domains i have in 101
+
+## Misc
+* reclamation form
 - look into charts.js
 - look into D3.js
+- read about Effect Hook
+* watch videos on Gatsby
+* side thought: I need to quick netlify domains i have in 101
 - Consider exporting reports with BigQuery: Connected Sheets
+
+## Internships
+* final-pass linked-in
+* final-pass github
+* Goalden Hour
+  * research
+  * resume/cover
+  * email docs
+* Go Paladin
+  * research
+  * resume/cover
+  * email docs
+* KhulaCo
+  * research
+  * resume/cover
+  * email docs
+* Tura Labs
+  * research
+  * resume/cover
+  * email docs
+* Kiddie Kredit
+  * research
+  * resume/cover
+  * email docs
+
+## Functionality
+* "needs reviewed" checkbox
 * write middleware index
 * integrate peripherals for middleware
-- read about Effect Hook
-- Research internship companies
-- Rank internship companies
-- finish writing out your pitch notes and time yourself
-- email nina final pieces 10/7 (i think, check on this)
-- final pass through of linked-in
-- final pass through of generic resume'
+
+## Demo Day
 - watch demo day pitch: make your 5 minutes memorable
+
+
+- write pitch outline
+  * audio
+  * video
+- practice pitch/time-self
+
+
+# Friday 10/2
+# Saturday 10/3
+# Sunday 10/4
+# Monday 10/5
+# Tuesday 10/6
+# Wednesday 10/7
