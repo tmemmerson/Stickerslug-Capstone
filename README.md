@@ -209,3 +209,4 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 * ~~swap favicon out~~
 
 * read up on internship companies
+* watch videos on Gatsby
