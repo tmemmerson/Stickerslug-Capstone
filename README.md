@@ -60,7 +60,7 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 <h1>
 <h1 align="center">
 ACTIVITY LOG</h1>
-<h4 align="left"> 9/24/2020 - 11:22pm 
+<h4 align="left"> 9/24/20</h4>
 <h4 align="left">
   <img width="220" height="113" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/it-has-begun.gif">
 
@@ -83,35 +83,25 @@ ACTIVITY LOG</h1>
   - ~~Further Exploration: Animations with React~~
   - ~~Further Exploration: SEO with React~~
 
-<h4 align="left"> 9/25/2020 - 12:19am 
+<h4 align="left"> 9/25/20</h4>
 <h4 align="left"> 
 <img width="220" height="172" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/im-so-excited.gif">
 
-<h4 align="left"> 9/25/2020 - 2:09pm</h4>
-
 - ~~Watch Cloud Firestore Data Modeling~~
-
-<h4 align="left"> 9/25/2020 - 4:04pm</h4>
 
 - ~~watch more youtube videos on Firestore database structures and limitations~~
 
-<h4 align="left"> 9/26/2020 - 12:24pm</h4>
+<h4 align="left"> 9/26/20</h4>
 
 - ~~clear out bookmarks~~
 
-<h4 align="left"> 9/26/2020 - 2:45pm</h4>
-
 - ~~Research seeding firestore databases~~
-
-<h4 align="left"> 9/26/2020 - 4:05pm</h4>
 
 - ~~Create stickerslug-capstone app in firestore~~
 
-<h4 align="left"> 9/26/2020 - 11:35pm</h4>
-
 - ~~start routing elements~~
 
-<h4 align="left"> 9/27/2020 - 11:55am</h4>
+<h4 align="left"> 9/27/20</h4>
 <img width="220" height="172" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/sleepy.gif">
 
 - ~~Reports~~
@@ -154,8 +144,6 @@ ACTIVITY LOG</h1>
     - ~~2018~~
     - ~~2019~~
 
-<h4 align="left"> 9/27/2020 - 7:28pm</h4>
-
 - Capstone
 
   - ~~get amazon product format fields~~ //stretch goal
@@ -187,13 +175,13 @@ ACTIVITY LOG</h1>
   - ~~Clean Shipped Items~~
   - ~~Clean Country Comparison~~
 
-<h4 align="left"> 9/28/2020 - 12:38pm</h4>
+<h4 align="left"> 9/28/20</h4>
 
 - ~~find main product data~~
 
 <p>i cant solve how to efficiency upload all this product data. i think i can write some 
 middleware (i think that's what it would be) to handle that. just pass the json data in.</p>
-<h4 align="left"> 9/30/2020 - 11:02am</h4>
+<h4 align="left"> 9/30/20</h4>
 <img width="220" height="172" src="https://media1.giphy.com/media/111feFJzkob5oQ/giphy.gif">
 
 - ~~move data into assets~~
@@ -211,5 +199,6 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 * read up on internship companies
 * watch videos on Gatsby
 
+<h4 align="left"> 10/02/20</h4>
 * consider implementing a "needs reviewed" checkbox
 * Reclamation Form
