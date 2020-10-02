@@ -122,9 +122,8 @@ ACTIVITY LOG</h1>
     - ~~2019~~
 
   ~~\* Shipping Cost~~
-  report errors
 
-  - Country Comparison
+  - ~~Country Comparison~~
 
     - ~~2013~~
     - ~~2014~~
@@ -144,32 +143,18 @@ ACTIVITY LOG</h1>
     - ~~2018~~
     - ~~2019~~
 
-- Capstone
-
+- ~~Capstone~~
   - ~~get amazon product format fields~~ //stretch goal
   - ~~get etsy product format fields~~ //deep stretch goal
   - ~~get my parental data sheets~~
   - ~~find and verify image locations are accessible for all 12.6m~~
-  - watch demo day pitch: make your 5 minutes memorable
 
-* Career Services
 
-  - Research internship companies
-  - Rank internship companies
-  - finish writing out your pitch notes and time yourself
-  - email nina final pieces 10/7 (i think, check on this)
-  - final pass through of linked-in
-  - final pass through of generic resume'
+* ~~General~~
 
-* General
-
-  - read about Effect Hook
   - ~~Re-read thinking in React~~
-  - look into charts.js
-  - look into D3.js
-  - Consider exporting reports with BigQuery: Connected Sheets
 
-* Data
+* ~~Data~~
   - ~~combine country comparison~~
   - ~~combine shipped items~~
   - ~~Clean Shipped Items~~
@@ -181,6 +166,7 @@ ACTIVITY LOG</h1>
 
 <p>i cant solve how to efficiency upload all this product data. i think i can write some 
 middleware (i think that's what it would be) to handle that. just pass the json data in.</p>
+
 <h4 align="left"> 9/30/20</h4>
 <img width="220" height="172" src="https://media1.giphy.com/media/111feFJzkob5oQ/giphy.gif">
 
@@ -189,16 +175,27 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 - ~~move package into assets~~
 - ~~move package-lock into assets~~
 - ~~move serviceAccountKey into assets~~
-
-* total side thought: I need to quick netlify those domains i have sitting in 101
-
-* write middleware index
-* integrate peripherals for middleware
 * ~~swap favicon out~~
 
-* read up on internship companies
-* watch videos on Gatsby
+
 
 <h4 align="left"> 10/02/20</h4>
+
 * consider implementing a "needs reviewed" checkbox
 * Reclamation Form
+* read up on internship companies
+* watch videos on Gatsby
+* side thought: I need to quick netlify domains i have in 101
+- look into charts.js
+- look into D3.js
+- Consider exporting reports with BigQuery: Connected Sheets
+* write middleware index
+* integrate peripherals for middleware
+- read about Effect Hook
+- Research internship companies
+- Rank internship companies
+- finish writing out your pitch notes and time yourself
+- email nina final pieces 10/7 (i think, check on this)
+- final pass through of linked-in
+- final pass through of generic resume'
+- watch demo day pitch: make your 5 minutes memorable
