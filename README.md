@@ -152,8 +152,8 @@ ACTIVITY LOG</h1>
 
 - ~~find main product data~~
 
-<p>i cant solve how to efficiency upload all this product data. i think i can write some 
-middleware (i think that's what it would be) to handle that. just pass the json data in.</p>
+~~<p>i cant solve how to efficiency upload all this product data. i think i can write some 
+middleware (i think that's what it would be) to handle that. just pass the json data in.</p>~~
 
 <h4 align="left"> 9/30/20</h4>
 <img width="220" height="172" src="https://media1.giphy.com/media/111feFJzkob5oQ/giphy.gif">
@@ -168,6 +168,40 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 
 <h4 align="left"> 10/02/20</h4>
 
+- ~~Kiddie Kredit~~
+  - ~~research~~
+  - ~~resume~~/~~cover~~
+  - ~~email docs~~
+
+<h4 align="left"> 10/03/20</h4>
+
+- ~~Tura Labs~~
+  - ~~research~~
+  - ~~resume~~/~~cover~~
+  - ~~email docs~~
+- ~~Go Paladin~~
+  - ~~research~~
+  - ~~resume~~/~~cover~~
+  - ~~email docs~~
+- ~~Goalden Hour~~
+  - ~research~~
+  - ~~resume~~/~~cover~~
+  - ~~email docs~~
+- ~KhulaCo~~
+  - ~~research~~
+  - ~~resume~~/~~cover~~
+  - ~~email docs~~
+
+
+
+
+## Demo Day
+- watch demo day pitch: make your 5 minutes memorable
+- write pitch outline audio
+- write pitch outline video
+- practice pitch/time-self
+- record demo
+- edit demo 
 
 ## Misc
 - reclamation form
@@ -179,43 +213,7 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 - Consider exporting reports with BigQuery: Connected Sheets
 - outing next week?
 
-
-
 ## Functionality
 - "needs reviewed" checkbox
 - write middleware index
 - integrate peripherals for middleware
-
-# Friday 10/2
-- Kiddie Kredit
-  - ~~research~~
-  - ~~resume~~/~~cover~~
-  - ~~email docs~~
-# Saturday 10/3
-- Tura Labs
-  - ~~research~~
-  - ~~resume~~/~~cover~~
-  - ~~email docs~~
-# Sunday 10/4
-- ~~Goalden Hour~~
-  - ~research~~
-  - ~~resume~~/~~cover~~
-  - ~~email docs~~
-# Monday 10/5
-- KhulaCo
-  - research
-  - ~~resume~~/cover
-  - email docs
-# Tuesday 10/6
-- Go Paladin
-  - research
-  - ~~resume~~/cover
-  - email docs
-# Wednesday 10/7
-## Demo Day
-- watch demo day pitch: make your 5 minutes memorable
-- write pitch outline audio
-- write pitch outline video
-- practice pitch/time-self
-- record demo
-- edit demo 
