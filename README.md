@@ -197,10 +197,10 @@ middleware (i think that's what it would be) to handle that. just pass the json 
   - ~~resume~~/~~cover~~
   - ~~email docs~~
 # Sunday 10/4
-- Goalden Hour
-  - research
-  - ~~resume~~/cover
-  - email docs
+- ~~Goalden Hour~~
+  - ~research~~
+  - ~~resume~~/~~cover~~
+  - ~~email docs~~
 # Monday 10/5
 - KhulaCo
   - research
