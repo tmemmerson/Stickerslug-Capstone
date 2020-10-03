@@ -193,9 +193,9 @@ middleware (i think that's what it would be) to handle that. just pass the json 
   - ~~email docs~~
 # Saturday 10/3
 - Tura Labs
-  - research
-  - ~~resume~~/cover
-  - email docs
+  - ~~research~~
+  - ~~resume~~/~~cover~~
+  - ~~email docs~~
 # Sunday 10/4
 - Goalden Hour
   - research
