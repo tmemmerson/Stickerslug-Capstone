@@ -191,7 +191,7 @@ middleware (i think that's what it would be) to handle that. just pass the json 
   - ~~research~~
   - ~~resume~~/~~cover~~
   - ~~email docs~~
-
+- ~~side thought: I need to quick netlify domains i have in 101~~
 
 
 
@@ -209,7 +209,7 @@ middleware (i think that's what it would be) to handle that. just pass the json 
 - look into D3.js
 - read about Effect Hook
 - watch videos on Gatsby
-- side thought: I need to quick netlify domains i have in 101
+
 - Consider exporting reports with BigQuery: Connected Sheets
 - outing next week?
 
