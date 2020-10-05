@@ -114,9 +114,9 @@ const ProductForm = (props) => {
           </div>
           <input
             className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
+            name="designOrientation"
+            placeholder="orientation"
+            value={values.designOrientation}
             onChange={handleInputChange}
           />
         </div>
@@ -130,9 +130,9 @@ const ProductForm = (props) => {
           </div>
           <input
             className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
+            name="designAspectRatio"
+            placeholder="portrait ratio"
+            value={values.designAspectRatio}
             onChange={handleInputChange}
           />
         </div>
@@ -144,39 +144,9 @@ const ProductForm = (props) => {
           </div>
           <input
             className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
-            onChange={handleInputChange}
-          />
-        </div>
-      </div>
-      <div className="form-row">
-        <div className="form-group input-group col-md-6">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="form-group input-group col-md-6">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
+            name="designAspectRatioOther"
+            placeholder="landscape ratio"
+            value={values.designAspectRatioOther}
             onChange={handleInputChange}
           />
         </div>
@@ -190,9 +160,9 @@ const ProductForm = (props) => {
           </div>
           <input
             className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
+            name="isOversized"
+            placeholder="Oversized?"
+            value={values.isOversized}
             onChange={handleInputChange}
           />
         </div>
@@ -204,39 +174,9 @@ const ProductForm = (props) => {
           </div>
           <input
             className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
-            onChange={handleInputChange}
-          />
-        </div>
-      </div>
-      <div className="form-row">
-        <div className="form-group input-group col-md-6">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="form-group input-group col-md-6">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
+            name="fiveInchWidth"
+            placeholder="5in width"
+            value={values.fiveInchWidth}
             onChange={handleInputChange}
           />
         </div>
@@ -250,9 +190,9 @@ const ProductForm = (props) => {
           </div>
           <input
             className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
+            name="fiveInchHeight"
+            placeholder="5in height"
+            value={values.fiveInchHeight}
             onChange={handleInputChange}
           />
         </div>
@@ -264,39 +204,9 @@ const ProductForm = (props) => {
           </div>
           <input
             className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
-            onChange={handleInputChange}
-          />
-        </div>
-      </div>
-      <div className="form-row">
-        <div className="form-group input-group col-md-6">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="form-group input-group col-md-6">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
+            name="eightInchWidth"
+            placeholder="8in width"
+            value={values.eightInchWidth}
             onChange={handleInputChange}
           />
         </div>
@@ -310,9 +220,9 @@ const ProductForm = (props) => {
           </div>
           <input
             className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
+            name="eightInchHeight"
+            placeholder="8in height"
+            value={values.eightInchHeight}
             onChange={handleInputChange}
           />
         </div>
@@ -324,21 +234,109 @@ const ProductForm = (props) => {
           </div>
           <input
             className="form-control"
-            name="fieldName"
-            placeholder="placeholder"
-            value={values.serial}
+            name="elevenSWidth"
+            placeholder="11s width"
+            value={values.elevenSWidth}
+            onChange={handleInputChange}
+          />
+        </div>
+      </div>
+      <div className="form-row">
+        <div className="form-group input-group col-md-6">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-user"></i>
+            </div>
+          </div>
+          <input
+            className="form-control"
+            name="elevenSHeight"
+            placeholder="11s height"
+            value={values.elevenSHeight}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="form-group input-group col-md-6">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-user"></i>
+            </div>
+          </div>
+          <input
+            className="form-control"
+            name="fiveInchSizeName"
+            placeholder="5in size name"
+            value={values.fiveInchSizeName}
+            onChange={handleInputChange}
+          />
+        </div>
+      </div>
+      <div className="form-row">
+        <div className="form-group input-group col-md-6">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-user"></i>
+            </div>
+          </div>
+          <input
+            className="form-control"
+            name="eightInchSizeName"
+            placeholder="8in size name"
+            value={values.eightInchSizeName}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="form-group input-group col-md-6">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-user"></i>
+            </div>
+          </div>
+          <input
+            className="form-control"
+            name="elevenSSizeName"
+            placeholder="11s size name"
+            value={values.elevenSSizeName}
+            onChange={handleInputChange}
+          />
+        </div>
+      </div>
+      <div className="form-row">
+        <div className="form-group input-group col-md-6">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-user"></i>
+            </div>
+          </div>
+          <input
+            className="form-control"
+            name="thumbWidthPx"
+            placeholder="thmb px width"
+            value={values.thumbWidthPx}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="form-group input-group col-md-6">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-user"></i>
+            </div>
+          </div>
+          <input
+            className="form-control"
+            name="thumbHeightPx"
+            placeholder="thmb px height"
+            value={values.thumbHeightPx}
             onChange={handleInputChange}
           />
         </div>
       </div>
       <div className="form-group">
-        /*instead of this input use textarea - issue with my syntax highlighter
-        */
         <input
           className="form-control"
-          name="address"
-          placeholder="Address"
-          value={values.address}
+          name="notes"
+          placeholder="notes"
+          value={values.notes}
           onChange={handleInputChange}
         />
       </div>
