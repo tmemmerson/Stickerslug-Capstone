@@ -223,9 +223,9 @@ lots of reading and little code unfortunately.
 - Consider exporting reports with BigQuery: Connected Sheets
 - integrate peripherals for middleware
 
-- new data upload
+- ~~new data upload~~
   - ~~sizeData~~
-  - skuOther
+  - ~~skuOther~~
   - ~~skuDecal~~
   - ~~imageDecal~~
   - ~~imageOther~~
