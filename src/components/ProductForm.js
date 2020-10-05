@@ -27,9 +27,9 @@ const ProductForm = (props) => {
     if (props.currentId == "") setValues({ ...initialFieldValues });
     else
       setValues({
-        ...props.contactObjects[props.currentId],
+        ...props.productObjects[props.currentId],
       });
-  }, [props.currentId, props.contactObjects]);
+  }, [props.currentId, props.productObjects]);
 
   const handleInputChange = (e) => {
     var { item, value } = e.target;
