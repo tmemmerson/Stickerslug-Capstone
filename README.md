@@ -202,26 +202,19 @@ lots of reading and little code unfortunately.
 
 * ~~wrap up last readings~~
 * ~~port data back to realtime database~~
-
-## Demo Day
+* ~~write middleware~~
+- integrate peripherals for middleware
+- "needs reviewed" checkbox
 - watch demo day pitch: make your 5 minutes memorable
 - write pitch outline audio
 - write pitch outline video
 - practice pitch/time-self
 - record demo
 - edit demo 
-
-## Misc
 - reclamation form
 - look into charts.js
 - look into D3.js
 - read about Effect Hook
 - watch videos on Gatsby
-
 - Consider exporting reports with BigQuery: Connected Sheets
 - outing next week?
-
-## Functionality
-- "needs reviewed" checkbox
-- write middleware index
-- integrate peripherals for middleware
