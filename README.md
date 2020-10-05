@@ -225,7 +225,7 @@ lots of reading and little code unfortunately.
 
 - new data upload
   - ~~sizeData~~
-  - skuOther
+  - ~~skuOther~~
   - skuDecal
   - imageDecal
   - imageOther
