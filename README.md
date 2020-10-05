@@ -200,7 +200,9 @@ lots of reading and little code unfortunately.
 
 <h4 align="left"> 10/05/20</h4>
 
-* wrap up last 
+* wrap up last readings
+* port data back to realtime database
+
 ## Demo Day
 - watch demo day pitch: make your 5 minutes memorable
 - write pitch outline audio
