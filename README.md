@@ -222,3 +222,11 @@ lots of reading and little code unfortunately.
 - look into charts.js/ d3.js
 - Consider exporting reports with BigQuery: Connected Sheets
 - integrate peripherals for middleware
+
+- new data upload
+  - ~~sizeData~~
+  - skuOther
+  - skuDecal
+  - imageDecal
+  - imageOther
+  - parentData
