@@ -350,3 +350,4 @@ const ProductForm = (props) => {
     </form>
   );
 };
+export default ProductForm;
