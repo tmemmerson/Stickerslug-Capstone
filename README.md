@@ -105,6 +105,7 @@ ACTIVITY LOG</h1>
 <img width="220" height="172" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/sleepy.gif">
 
 - ~~Reports~~
+
   - ~~Shipped Items~~
   - ~~Shipping Cost~~
   - ~~Country Comparison~~
@@ -119,6 +120,7 @@ ACTIVITY LOG</h1>
     - ~~2019~~
 
   ~~Shipping Cost~~
+
   - ~~Country Comparison~~
     - ~~2013~~
     - ~~2014~~
@@ -135,8 +137,9 @@ ACTIVITY LOG</h1>
     - ~~2017~~
     - ~~2018~~
     - ~~2019~~
+
 - ~~Capstone~~
-  - ~~get amazon product format fields~~ 
+  - ~~get amazon product format fields~~
   - ~~get etsy product format fields~~
   - ~~get my parental data sheets~~
   - ~~find and verify image locations are accessible for all 12.6m~~
@@ -152,7 +155,7 @@ ACTIVITY LOG</h1>
 
 - ~~find main product data~~
 
-~~<p>i cant solve how to efficiency upload all this product data. i think i can write some 
+~~<p>i cant solve how to efficiency upload all this product data. i think i can write some
 middleware (i think that's what it would be) to handle that. just pass the json data in.</p>~~
 
 <h4 align="left"> 9/30/20</h4>
@@ -193,28 +196,29 @@ middleware (i think that's what it would be) to handle that. just pass the json 
   - ~~email docs~~
 - ~~side thought: I need to quick netlify domains i have in 101~~
 
-
 <h4 align="left"> 10/04/20</h4>
 
-lots of reading and little code unfortunately. 
+lots of reading and little code unfortunately.
 
 <h4 align="left"> 10/05/20</h4>
 
-* ~~wrap up last readings~~
-* ~~port data back to realtime database~~
-* ~~write middleware~~
-- integrate peripherals for middleware
+- ~~wrap up last readings~~
+- ~~port data back to realtime database~~
+- ~~write middleware~~
+- ~~read about effect hook~~
+- ~~watch videos on Gatsby~~
+
+## oh good lord is it time for a gif...
+
+<img width="220" height="172" src="https://www.dailycal.org/assets/uploads/2014/03/dance.gif">
+
+### I finally got the data hooked up to the front end!!!!
+
 - "needs reviewed" checkbox
 - watch demo day pitch: make your 5 minutes memorable
-- write pitch outline audio
-- write pitch outline video
+- write pitch outline audio/video structure
 - practice pitch/time-self
-- record demo
-- edit demo 
-- reclamation form
-- look into charts.js
-- look into D3.js
-- read about Effect Hook
-- watch videos on Gatsby
+- edit/record demo
+- look into charts.js/ d3.js
 - Consider exporting reports with BigQuery: Connected Sheets
-- outing next week?
+- integrate peripherals for middleware
