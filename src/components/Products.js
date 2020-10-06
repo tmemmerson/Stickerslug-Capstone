@@ -18,19 +18,19 @@ const Products = () => {
 
   const addOrEdit = (obj) => {
     if (currentId == "")
-      firebaseDb.child("curated").push(obj, (err) => {
+      firebaseDb.child("parentData").push(obj, (err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
     else
-      firebaseDb.child(`curated/${currentId}`).set(obj, (err) => {
+      firebaseDb.child(`parentData/${currentId}`).set(obj, (err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
   };
   const onDelete = (id) => {
     if (window.confirm("Are you sure to delete this record?")) {
-      firebaseDb.child(`curated/${id}`).remove((err) => {
+      firebaseDb.child(`parentData/${id}`).remove((err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });

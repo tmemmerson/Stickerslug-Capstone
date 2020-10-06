@@ -31,8 +31,6 @@ imgCus: "",
 
 
 
-
-    designOrientation
     imgSht
     imgWin
     imgMug
