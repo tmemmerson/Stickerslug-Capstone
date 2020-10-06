@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
-import ProductForm from "./ProductForm";
+import ContactForm from "./ContactForm";
 import firebaseDb from "../firebase";
 
-const Products = () => {
+const Contacts = () => {
   var [currentId, setCurrentId] = useState("");
-  var [productObjects, setProductObjects] = useState({});
+  var [contactObjects, setContactObjects] = useState({});
 
   //Once components load complete
   useEffect(() => {
-    firebaseDb.child("temp01").on("value", (snapshot) => {
+    firebaseDb.child("sizeData").on("value", (snapshot) => {
       if (snapshot.val() != null) {
-        setProductObjects({
+        setContactObjects({
           ...snapshot.val(),
         });
       }
@@ -19,19 +19,19 @@ const Products = () => {
 
   const addOrEdit = (obj) => {
     if (currentId == "")
-      firebaseDb.child("temp01").push(obj, (err) => {
+      firebaseDb.child("sizeData").push(obj, (err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
     else
-      firebaseDb.child(`temp01/${currentId}`).set(obj, (err) => {
+      firebaseDb.child(`sizeData/${currentId}`).set(obj, (err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
   };
   const onDelete = (id) => {
     if (window.confirm("Are you sure to delete this record?")) {
-      firebaseDb.child(`temp01/${id}`).remove((err) => {
+      firebaseDb.child(`sizeData/${id}`).remove((err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
@@ -42,37 +42,31 @@ const Products = () => {
     <>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4 text-center">Product Manager</h1>
+          <h1 className="display-4 text-center">Contact Manager</h1>
         </div>
       </div>
       <div className="row">
         <div className="col-md-5">
-          <ProductForm
-            {...{ currentId, productObjects, addOrEdit }}
-          ></ProductForm>
+          <ContactForm
+            {...{ currentId, contactObjects, addOrEdit }}
+          ></ContactForm>
         </div>
         <div className="col-md-7">
           <table className="table table-borderless table-stripped">
             <thead className="thead-light">
               <tr>
                 <th>Serial</th>
-                <th>Name</th>
-                <th>Rating</th>
-                <th>Aspect</th>
-                <th>Orientation</th>
                 <th>Oversized</th>
+                <th>size</th>
                 <th>Actions</th>
               </tr>
             </thead>
             <tbody>
-              {Object.keys(productObjects).map((key) => (
+              {Object.keys(contactObjects).map((key) => (
                 <tr key={key}>
-                  <td>{productObjects[key].serial}</td>
-                  <td>{productObjects[key].baseName}</td>
-                  <td>{productObjects[key].Rating}</td>
-                  <td>{productObjects[key].aspectRatio}</td>
-                  <td>{productObjects[key].designOrientation}</td>
-                  <td>{productObjects[key].isWin}</td>
+                  <td>{contactObjects[key].serial}</td>
+                  <td>{contactObjects[key].designAspectRatio}</td>
+                  <td>{contactObjects.isoversized}</td>
                   <td className="bg-light">
                     <a
                       className="btn text-primary"
@@ -101,4 +95,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Contacts;

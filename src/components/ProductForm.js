@@ -3,12 +3,22 @@ import React, { useState, useEffect } from "react";
 const ProductForm = (props) => {
   const initialFieldValues = {
     serial: "",
+    baseName: "",
+    isSht: "",
+    isWin: "",
+    isMug: "",
+    isGym: "",
+    isOne: "",
+    isBag: "",
+    isVnk: "",
+    isCrw: "",
+    isOversized: "",
+    Rating: "",
+    designOrientation: "",
     widthPixel: "",
     heightPixel: "",
-    designOrientation: "",
     designAspectRatio: "",
     designAspectRatioOther: "",
-    isOversized: "",
     fiveInchWidth: "",
     fiveInchHeight: "",
     eightInchWidth: "",
@@ -21,16 +31,6 @@ const ProductForm = (props) => {
     thumbWidthPx: "",
     thumbHeightPx: "",
     imgThmb: "",
-    baseName: "",
-    isSht: "",
-    isWin: "",
-    isMug: "",
-    isGym: "",
-    isOne: "",
-    isBag: "",
-    isVnk: "",
-    isCrw: "",
-    Rating: "",
     aspectRatio: "",
     imgSht: "",
     imgWin: "",
@@ -57,10 +57,10 @@ const ProductForm = (props) => {
   }, [props.currentId, props.productObjects]);
 
   const handleInputChange = (e) => {
-    var { item, value } = e.target;
+    var { name, value } = e.target;
     setValues({
       ...values,
-      [item]: value,
+      [name]: value,
     });
   };
 
@@ -68,10 +68,11 @@ const ProductForm = (props) => {
     e.preventDefault();
     props.addOrEdit(values);
   };
+
   return (
     <form autoComplete="off" onSubmit={handleFormSubmit}>
       <div className="form-row">
-        <div className="form-group input-group col-md-10">
+        <div className="form-group input-group col-md-9">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-user"></i>
@@ -85,7 +86,7 @@ const ProductForm = (props) => {
             onChange={handleInputChange}
           />
         </div>{" "}
-        <div className="form-group input-group col-md-2">
+        <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-exclamation-triangle"></i>
@@ -145,7 +146,7 @@ const ProductForm = (props) => {
         </div>
       </div>
       <div className="form-row">
-        <div className="form-group input-group col-md-2">
+        <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-glass-whiskey"></i>
@@ -160,7 +161,7 @@ const ProductForm = (props) => {
           />
         </div>
 
-        <div className="form-group input-group col-md-2">
+        <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-wine-glass-alt"></i>
@@ -174,7 +175,7 @@ const ProductForm = (props) => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="form-group input-group col-md-2">
+        <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-beer"></i>
@@ -188,7 +189,55 @@ const ProductForm = (props) => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="form-group input-group col-md-2">
+      </div>
+      <div className="form-row">
+        {" "}
+        <div className="form-group input-group col-md-3">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-user"></i>
+            </div>
+          </div>
+          <input
+            className="form-control"
+            name="isVnk"
+            placeholder="isVnk"
+            value={values.isVnk}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="form-group input-group col-md-3">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-tshirt"></i>
+            </div>
+          </div>
+          <input
+            className="form-control"
+            name="isCrw"
+            placeholder="isCrw"
+            value={values.isCrw}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="form-group input-group col-md-3">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-ruler-combined"></i>
+            </div>
+          </div>
+          <input
+            className="form-control"
+            name="isOversized"
+            placeholder="isOversized"
+            value={values.isOversized}
+            onChange={handleInputChange}
+          />
+        </div>
+      </div>
+      <div className="form-row">
+        {" "}
+        <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-baby"></i>
@@ -202,7 +251,7 @@ const ProductForm = (props) => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="form-group input-group col-md-2">
+        <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-shopping-bag"></i>
@@ -216,7 +265,7 @@ const ProductForm = (props) => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="form-group input-group col-md-2">
+        <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-dumbbell"></i>
@@ -231,52 +280,6 @@ const ProductForm = (props) => {
           />
         </div>
       </div>
-      <div className="form-row">
-        {" "}
-        <div className="form-group input-group col-md-2">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="isVnk"
-            placeholder="isVnk"
-            value={values.isVnk}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="form-group input-group col-md-2">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-tshirt"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="isCrw"
-            placeholder="isCrw"
-            value={values.isCrw}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="form-group input-group col-md-2">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="isOversied"
-            placeholder="isOversized"
-            value={values.isOversized}
-            onChange={handleInputChange}
-          />
-        </div>
-      </div>
-      <div className="form-row"></div>
 
       <div className="form-group">
         <input
@@ -297,4 +300,5 @@ const ProductForm = (props) => {
     </form>
   );
 };
+
 export default ProductForm;
