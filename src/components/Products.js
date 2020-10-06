@@ -65,7 +65,7 @@ const Products = () => {
                 <tr key={key}>
                   <td>{productObjects[key].serial}</td>
                   <td>{productObjects[key].designAspectRatio}</td>
-                  <td>{productObjects.isoversized}</td>
+                  <td>{`${productObjects.isOversized}`}</td>
 
                   <td className="bg-light">
                     <a
