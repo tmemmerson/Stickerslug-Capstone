@@ -45,6 +45,7 @@ const ProductForm = (props) => {
     imgCus: "",
     needsEdit: "false",
   };
+
   var [values, setValues] = useState(initialFieldValues);
 
   useEffect(() => {
