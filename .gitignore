@@ -24,3 +24,14 @@ yarn-error.log*
 .txt
 
 z-assets/*
+src/components/img/*
+src/components/Session/*
+src/components/LandingPage/*
+src/components/css/*
+src/components/Account/*
+src/components/Product.js
+src/components/ProductControl.js
+src/components/NewProductForm.js
+src/components/Signin.js
+src/components/NavBar.js
+src/components/NavItem.js

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ProductForm from "./ProductForm";
-import firebaseDb from "../firebase";
+import firebaseDb from "./Firebase/firebase";
 
 const Products = () => {
   var [currentId, setCurrentId] = useState("");
