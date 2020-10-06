@@ -13,32 +13,25 @@ import {
   makeStyles,
 } from "@material-ui/core";
 import {
-  AlertCircle as AlertCircleIcon,
   BarChart as BarChartIcon,
   Lock as LockIcon,
-  Settings as SettingsIcon,
   ShoppingBag as ShoppingBagIcon,
-  User as UserIcon,
   UserPlus as UserPlusIcon,
   Users as UsersIcon,
 } from "react-feather";
 import NavItem from "./NavItem";
+
 const user = {
-  avatar: "/static/images/avatars/avatar_6.png",
+  avatar: "tristan_emmerson.jpg",
   jobTitle: "Owner",
   name: "Tristan Emmerson",
 };
 
 const items = [
   {
-    href: "/dashboard",
+    href: "/dash",
     icon: BarChartIcon,
-    title: "Dashboard",
-  },
-  {
-    href: "/customers",
-    icon: UsersIcon,
-    title: "Customers",
+    title: "Home",
   },
   {
     href: "/products",
@@ -46,14 +39,9 @@ const items = [
     title: "Products",
   },
   {
-    href: "/account",
-    icon: UserIcon,
-    title: "Account",
-  },
-  {
-    href: "/NewProductForm",
-    icon: fa - plus - circle,
-    title: "Settings",
+    href: "/customers",
+    icon: UsersIcon,
+    title: "Customers",
   },
   {
     href: "/login",
@@ -64,11 +52,6 @@ const items = [
     href: "/register",
     icon: UserPlusIcon,
     title: "Register",
-  },
-  {
-    href: "/404",
-    icon: AlertCircleIcon,
-    title: "Error",
   },
 ];
 
