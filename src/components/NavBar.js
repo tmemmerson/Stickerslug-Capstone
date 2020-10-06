@@ -52,7 +52,7 @@ const items = [
   },
   {
     href: "/NewProductForm",
-    icon: SettingsIcon,
+    icon: fa - plus - circle,
     title: "Settings",
   },
   {
