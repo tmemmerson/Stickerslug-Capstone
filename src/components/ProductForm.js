@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 const ProductForm = (props) => {
   const initialFieldValues = {
     serial: "",
-    imgThmb: "",
     baseName: "",
     isSht: "",
     isWin: "",
@@ -18,6 +17,20 @@ const ProductForm = (props) => {
     designOrientation: "",
     widthPixel: "",
     heightPixel: "",
+    designAspectRatio: "",
+    designAspectRatioOther: "",
+    fiveInchWidth: "",
+    fiveInchHeight: "",
+    eightInchWidth: "",
+    eightInchHeight: "",
+    elevenSWidth: "",
+    elevenSHeight: "",
+    fiveInchSizeName: "",
+    eightInchSizeName: "",
+    elevenSSizeName: "",
+    thumbWidthPx: "",
+    thumbHeightPx: "",
+    imgThmb: "",
     aspectRatio: "",
     imgSht: "",
     imgWin: "",
@@ -32,6 +45,7 @@ const ProductForm = (props) => {
     imgCus: "",
     needsEdit: "false",
   };
+
   var [values, setValues] = useState(initialFieldValues);
 
   useEffect(() => {
@@ -74,7 +88,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-2">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-exclamation-triangle"></i>
             </div>
           </div>
           <input
@@ -90,22 +104,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="rating"
-            placeholder="rating"
-            value={values.rating}
-            onChange={handleInputChange}
-          />
-        </div>
-
-        <div className="form-group input-group col-md-3">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-divide"></i>
             </div>
           </div>
           <input
@@ -119,7 +118,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-text-width"></i>
             </div>
           </div>
           <input
@@ -133,7 +132,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-text-height"></i>
             </div>
           </div>
           <input
@@ -149,7 +148,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-2">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-glass-whiskey"></i>
             </div>
           </div>
           <input
@@ -164,7 +163,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-2">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-wine-glass-alt"></i>
             </div>
           </div>
           <input
@@ -178,7 +177,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-2">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-beer"></i>
             </div>
           </div>
           <input
@@ -192,7 +191,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-2">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-baby"></i>
             </div>
           </div>
           <input
@@ -206,7 +205,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-2">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-shopping-bag"></i>
             </div>
           </div>
           <input
@@ -220,7 +219,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-2">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-dumbbell"></i>
             </div>
           </div>
           <input
@@ -251,7 +250,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-2">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-tshirt"></i>
             </div>
           </div>
           <input
@@ -271,22 +270,8 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="isOversied"
-            placeholder="isOversied"
-            value={values.isOversied}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="form-group input-group col-md-2">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-user"></i>
-            </div>
-          </div>
-          <input
-            className="form-control"
-            name="needsEdit"
-            placeholder="needsEdit"
-            value={values.needsEdit}
+            placeholder="isOversized"
+            value={values.isOversized}
             onChange={handleInputChange}
           />
         </div>
