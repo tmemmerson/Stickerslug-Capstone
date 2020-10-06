@@ -11,6 +11,7 @@ const ProductForm = (props) => {
     isOne: "",
     isBag: "",
     isVnk: "",
+    note: "",
     isCrw: "",
     isOversized: "",
     Rating: "",
@@ -30,19 +31,31 @@ const ProductForm = (props) => {
     elevenSSizeName: "",
     thumbWidthPx: "",
     thumbHeightPx: "",
-    imgThmb: "",
+    imgThmb:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
     aspectRatio: "",
-    imgSht: "",
-    imgWin: "",
-    imgMug: "",
-    imgGym: "",
-    imgOne: "",
-    imgBag: "",
-    imgVnk: "",
-    imgCrw: "",
-    imgGls: "",
-    imgMat: "",
-    imgCus: "",
+    imgSht:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgWin:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgMug:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgGym:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgOne:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgBag:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgVnk:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgCrw:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgGls:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgMat:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+    imgCus:
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
     needsEdit: "false",
   };
 
@@ -75,7 +88,7 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-9">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-signature"></i>
             </div>
           </div>
           <input
@@ -95,7 +108,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="needsEdit"
-            placeholder="needsEdit"
+            placeholder="edit?"
             value={values.needsEdit}
             onChange={handleInputChange}
           />
@@ -111,7 +124,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="aspectRatio"
-            placeholder="aspectRatio"
+            placeholder="aspect"
             value={values.aspectRatio}
             onChange={handleInputChange}
           />
@@ -125,7 +138,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="widthPixel"
-            placeholder="widthPixel"
+            placeholder="width"
             value={values.widthPixel}
             onChange={handleInputChange}
           />
@@ -139,7 +152,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="heightPixel"
-            placeholder="heightPixel"
+            placeholder="height"
             value={values.heightPixel}
             onChange={handleInputChange}
           />
@@ -155,7 +168,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="isSht"
-            placeholder="isSht"
+            placeholder="shot?"
             value={values.isSht}
             onChange={handleInputChange}
           />
@@ -170,7 +183,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="isWin"
-            placeholder="isWin"
+            placeholder="wine?"
             value={values.isWin}
             onChange={handleInputChange}
           />
@@ -184,7 +197,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="isMug"
-            placeholder="isMug"
+            placeholder="mug?"
             value={values.isMug}
             onChange={handleInputChange}
           />
@@ -195,13 +208,13 @@ const ProductForm = (props) => {
         <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-user"></i>
+              <i className="fas fa-tshirt"></i>
             </div>
           </div>
           <input
             className="form-control"
             name="isVnk"
-            placeholder="isVnk"
+            placeholder="v-neck?"
             value={values.isVnk}
             onChange={handleInputChange}
           />
@@ -215,7 +228,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="isCrw"
-            placeholder="isCrw"
+            placeholder="crew?"
             value={values.isCrw}
             onChange={handleInputChange}
           />
@@ -229,7 +242,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="isOversized"
-            placeholder="isOversized"
+            placeholder="xlg?"
             value={values.isOversized}
             onChange={handleInputChange}
           />
@@ -246,7 +259,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="isOne"
-            placeholder="isOne"
+            placeholder="onesie?"
             value={values.isOne}
             onChange={handleInputChange}
           />
@@ -260,7 +273,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="isBag"
-            placeholder="isBag"
+            placeholder="tote?"
             value={values.isBag}
             onChange={handleInputChange}
           />
@@ -274,7 +287,7 @@ const ProductForm = (props) => {
           <input
             className="form-control"
             name="isGym"
-            placeholder="isGym"
+            placeholder="gym?"
             value={values.isGym}
             onChange={handleInputChange}
           />
@@ -285,7 +298,7 @@ const ProductForm = (props) => {
         <input
           className="form-control"
           name="notes"
-          placeholder="notes"
+          placeholder=""
           value={values.notes}
           onChange={handleInputChange}
         />
@@ -293,9 +306,114 @@ const ProductForm = (props) => {
       <div className="form-group">
         <input
           type="submit"
-          value={props.currentId === "" ? "Save" : "Update"}
+          value={props.currentId === "" ? "Saved" : "Save"}
           className="btn btn-primary btn-block"
         />
+      </div>
+      <div className="row">
+        <div className="col-md-4">
+          <td>
+            {" "}
+            <img
+              src={values.imgThmb}
+              width={140}
+              height={140}
+              alt="thumbnail image"
+            />
+          </td>
+        </div>
+        <div className="col-md-4">
+          <td>
+            {" "}
+            <img
+              src={values.imgGls}
+              width={140}
+              height={140}
+              alt="thumbnail image"
+            />
+          </td>
+        </div>
+        <div className="col-md-4">
+          <td>
+            {" "}
+            <img
+              src={values.imgCus}
+              width={140}
+              height={140}
+              alt="thumbnail image"
+            />
+          </td>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-4">
+          <td>
+            {" "}
+            <img
+              src={values.imgSht}
+              width={140}
+              height={141}
+              alt="thumbnail image"
+            />
+          </td>
+        </div>
+        <div className="col-md-4">
+          <td>
+            {" "}
+            <img
+              src={values.imgOne}
+              width={140}
+              height={140}
+              alt="thumbnail image"
+            />
+          </td>
+        </div>
+        <div className="col-md-4">
+          <td>
+            {" "}
+            <img
+              src={values.imgMug}
+              width={140}
+              height={140}
+              alt="thumbnail image"
+            />
+          </td>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-4">
+          <td>
+            {" "}
+            <img
+              src={values.imgVnk}
+              width={140}
+              height={140}
+              alt="thumbnail image"
+            />
+          </td>
+        </div>
+        <div className="col-md-4">
+          <td>
+            {" "}
+            <img
+              src={values.imgCrw}
+              width={140}
+              height={140}
+              alt="thumbnail image"
+            />
+          </td>
+        </div>
+        <div className="col-md-4">
+          <td>
+            {" "}
+            <img
+              src={values.imgBag}
+              width={140}
+              height={140}
+              alt="thumbnail image"
+            />
+          </td>
+        </div>
       </div>
     </form>
   );
