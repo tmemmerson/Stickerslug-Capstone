@@ -7,7 +7,7 @@ const Products = () => {
   var [productObjects, setProductObjects] = useState({});
 
   useEffect(() => {
-    firebaseDb.child("sizeData").on("value", (snapshot) => {
+    firebaseDb.child("parentData").on("value", (snapshot) => {
       if (snapshot.val() != null) {
         setProductObjects({
           ...snapshot.val(),
@@ -18,19 +18,19 @@ const Products = () => {
 
   const addOrEdit = (obj) => {
     if (currentId == "")
-      firebaseDb.child("sizeData").push(obj, (err) => {
+      firebaseDb.child("parentData").push(obj, (err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
     else
-      firebaseDb.child(`sizeData/${currentId}`).set(obj, (err) => {
+      firebaseDb.child(`parentData/${currentId}`).set(obj, (err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
   };
   const onDelete = (id) => {
     if (window.confirm("Are you sure to delete this record?")) {
-      firebaseDb.child(`sizeData/${id}`).remove((err) => {
+      firebaseDb.child(`parentData/${id}`).remove((err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
@@ -55,17 +55,28 @@ const Products = () => {
             <thead className="thead-light">
               <tr>
                 <th>Serial</th>
+                <th>Rating</th>
                 <th>Oversized</th>
-                <th>size</th>
-                <th>Actions</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Action</th>
               </tr>
             </thead>
             <tbody>
               {Object.keys(productObjects).map((key) => (
                 <tr key={key}>
                   <td>{productObjects[key].serial}</td>
-                  <td>{productObjects[key].designAspectRatio}</td>
-                  <td>{`${productObjects.isOversized}`}</td>
+                  <td>{productObjects[key].rating}</td>
+                  <td>{productObjects[key].isAGym}</td>
+                  <td>
+                    {" "}
+                    <img
+                      src={productObjects[key].urlDGls}
+                      width={75}
+                      height={70}
+                    />
+                  </td>
+                  <td>{productObjects[key].name}</td>
 
                   <td className="bg-light">
                     <a
