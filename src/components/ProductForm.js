@@ -3,22 +3,12 @@ import React, { useState, useEffect } from "react";
 const ProductForm = (props) => {
   const initialFieldValues = {
     serial: "",
-    baseName: "",
-    isSht: "",
-    isWin: "",
-    isMug: "",
-    isGym: "",
-    isOne: "",
-    isBag: "",
-    isVnk: "",
-    isCrw: "",
-    isOversized: "",
-    Rating: "",
-    designOrientation: "",
     widthPixel: "",
     heightPixel: "",
+    designOrientation: "",
     designAspectRatio: "",
     designAspectRatioOther: "",
+    isOversized: "",
     fiveInchWidth: "",
     fiveInchHeight: "",
     eightInchWidth: "",
@@ -31,6 +21,16 @@ const ProductForm = (props) => {
     thumbWidthPx: "",
     thumbHeightPx: "",
     imgThmb: "",
+    baseName: "",
+    isSht: "",
+    isWin: "",
+    isMug: "",
+    isGym: "",
+    isOne: "",
+    isBag: "",
+    isVnk: "",
+    isCrw: "",
+    Rating: "",
     aspectRatio: "",
     imgSht: "",
     imgWin: "",
@@ -49,12 +49,12 @@ const ProductForm = (props) => {
   var [values, setValues] = useState(initialFieldValues);
 
   useEffect(() => {
-    if (props.currentId === "") setValues({ ...initialFieldValues });
+    if (props.currentId == "") setValues({ ...initialFieldValues });
     else
       setValues({
         ...props.productObjects[props.currentId],
       });
-  }, [props.currentId, props.productObjects, initialFieldValues]);
+  }, [props.currentId, props.productObjects]);
 
   const handleInputChange = (e) => {
     var { item, value } = e.target;
