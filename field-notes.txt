@@ -1,32 +1,49 @@
-serial
-imgThmb
-baseName
-isSht
-isWin
-isMug
-isGym
-isOne
-isBag
-isVnk
-isCrw
-Rating
-isOversized
-designOrientation
-widthPixel
-heightPixel
-aspectRatio
-imgSht
-imgWin
-imgMug
-imgGym
-imgOne
-imgBag
-imgVnk
-imgCrw
-imgGls
-imgMat
-imgCus
+serial: "",
+imgThmb: "",
+baseName: "",
+isSht: "",
+isWin: "",
+isMug: "",
+isGym: "",
+isOne: "",
+isBag: "",
+isVnk: "",
+isCrw: "",
+Rating: "",
+isOversized: "",
+designOrientation: "",
+widthPixel: "",
+heightPixel: "",
+aspectRatio: "",
+imgSht: "",
+imgWin: "",
+imgMug: "",
+imgGym: "",
+imgOne: "",
+imgBag: "",
+imgVnk: "",
+imgCrw: "",
+imgGls: "",
+imgMat: "",
+imgCus: "",
 
+
+
+
+
+
+    designOrientation
+    imgSht
+    imgWin
+    imgMug
+    imgGym
+    imgOne
+    imgBag
+    imgVnk
+    imgCrw
+    imgGls
+    imgMat
+    imgCus
 
 
 
