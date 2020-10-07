@@ -308,23 +308,22 @@ export default function Charts() {
     new Chart(chartSeven, {
       type: "pie",
       data: {
-        labels: ["fuck yes??", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["matte", "gloss"],
         datasets: [
           {
-            label: "# of Votes",
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-              "Red",
-              "Blue",
-              "Yellow",
-              "Green",
-              "Purple",
-              "Orange",
-            ],
-            borderColor: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+            label: "items sold",
+            data: [1265, 25202],
+            backgroundColor: ["#ffbfbf", "#ff9b82"],
+            borderColor: ["#ffbfbf", "#ff9b82"],
             borderWidth: 1,
           },
         ],
+      },
+      options: {
+        title: {
+          display: true,
+          text: "Decal Material Preference",
+        },
       },
     });
     const chartEight = document.getElementById("chartEight");
@@ -403,11 +402,13 @@ export default function Charts() {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-12">
+              <div className="col-md-2"></div>
+              <div className="col-md-8">
                 <div className="chart">
                   <canvas id="chartThree" width="50" height="50" />
                 </div>
               </div>
+              <div className="col-md-2"></div>
             </div>
             <div className="row">
               <div className="col-md-4">
