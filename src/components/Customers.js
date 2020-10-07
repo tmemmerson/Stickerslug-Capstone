@@ -46,15 +46,13 @@ const Customers = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-2">
-          <NavBar />
-        </div>
+        <div className="col-md-2"></div>
         <div className="col-md-4">
           <CustomerForm
             {...{ currentId, customerObjects, addOrEdit }}
           ></CustomerForm>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-5">
           <table className="table table-borderless table-stripped">
             <thead className="thead-light">
               <tr>
