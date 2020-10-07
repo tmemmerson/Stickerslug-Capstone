@@ -4,6 +4,7 @@ import Products from "./components/Products";
 import NavBar from "./layouts/DashboardLayout/NavBar";
 import Customers from "./components/Customers";
 import Splash from "./components/Splash";
+import Charts from "./components/data";
 const routes = [
   {
     path: "/products",
@@ -26,6 +27,14 @@ const routes = [
     element: <Splash />,
     children: [
       { path: "/", element: <Navigate to="/" /> },
+      { path: "*", element: <Navigate to="/404" /> },
+    ],
+  },
+  {
+    path: "/chart",
+    element: <Charts />,
+    children: [
+      { path: "/chart", element: <Navigate to="/chart" /> },
       { path: "*", element: <Navigate to="/404" /> },
     ],
   },
