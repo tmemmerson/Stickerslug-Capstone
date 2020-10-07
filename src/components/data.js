@@ -31,11 +31,11 @@ export default function Charts() {
     new Chart(chartTwo, {
       type: "doughnut",
       data: {
-        labels: ["fuck yes??", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["", "Etsy", "Amazon", "Amazon CA", ".Com", "eBay"],
         datasets: [
           {
-            label: "# of Votes",
-            data: [12, 19, 3, 5, 2, 3],
+            label: "channel",
+            data: [0, 3107, 917110, 25822, 4542, 53810],
             backgroundColor: [
               "Red",
               "Blue",
