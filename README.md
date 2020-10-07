@@ -214,16 +214,15 @@ lots of reading and little code unfortunately.
 
 ### I finally got the data hooked up to the front end!!!!
 
-- "needs reviewed" checkbox
+- ~~"needs reviewed" checkbox~~
 - watch demo day pitch: make your 5 minutes memorable
 - write pitch outline audio/video structure
 - practice pitch/time-self
 - edit/record demo
-- look into charts.js/ d3.js
-- Consider exporting reports with BigQuery: Connected Sheets
-- integrate peripherals for middleware
+- ~~look into charts.js/ d3.js~~
+- ~~Consider exporting reports with BigQuery: Connected Sheets~~
 
-- ~~new data upload~~
+* ~~new data upload~~
   - ~~sizeData~~
   - ~~skuOther~~
   - ~~skuDecal~~
@@ -233,3 +232,6 @@ lots of reading and little code unfortunately.
     <h4 align="left"> 10/06/20</h4>
 
 ## chased a bug all day from a detached head error
+
+<h4 align="left"> 10/06/20</h4>
+- integrate peripherals for middleware
