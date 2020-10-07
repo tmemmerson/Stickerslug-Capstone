@@ -259,7 +259,7 @@ export default function Charts() {
       options: {
         title: {
           display: true,
-          text: "Internation Sales",
+          text: "Order Count by International Country Comparison",
         },
       },
     });
@@ -295,6 +295,12 @@ export default function Charts() {
             borderWidth: 1,
           },
         ],
+      },
+      options: {
+        title: {
+          display: true,
+          text: "% of Total Sales by Year",
+        },
       },
     });
 
@@ -392,14 +398,14 @@ export default function Charts() {
               </div>
               <div className="col-md-4">
                 <div className="chart">
-                  <canvas id="chartThree" width="50" height="50" />
+                  <canvas id="chartFour" width="50" height="50" />
                 </div>
               </div>
             </div>
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-12">
                 <div className="chart">
-                  <canvas id="chartFour" width="50" height="50" />
+                  <canvas id="chartThree" width="50" height="50" />
                 </div>
               </div>
             </div>
