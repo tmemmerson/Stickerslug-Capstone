@@ -215,10 +215,6 @@ lots of reading and little code unfortunately.
 ### I finally got the data hooked up to the front end!!!!
 
 - ~~"needs reviewed" checkbox~~
-- watch demo day pitch: make your 5 minutes memorable
-- write pitch outline audio/video structure
-- practice pitch/time-self
-- edit/record demo
 - ~~look into charts.js/ d3.js~~
 - ~~Consider exporting reports with BigQuery: Connected Sheets~~
 
@@ -233,5 +229,16 @@ lots of reading and little code unfortunately.
 
 ## chased a bug all day from a detached head error
 
-<h4 align="left"> 10/06/20</h4>
-- integrate peripherals for middleware
+<h4 align="left"> 10/07/20</h4>
+
+- Maybe Do
+
+  - integrate peripherals for middleware
+  - make demo video
+
+- Do
+  - write/practice pitch
+  - finish up component model
+  - watch demo day pitch vid
+  - something with the channel
+  - write up/test install instructions to README
