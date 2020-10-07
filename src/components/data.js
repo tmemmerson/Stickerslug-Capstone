@@ -303,7 +303,28 @@ export default function Charts() {
         },
       },
     });
-
+    const chartFive = document.getElementById("chartFive");
+    new Chart(chartFive, {
+      type: "pie",
+      data: {
+        labels: ["shot", "wine", "mug"],
+        datasets: [
+          {
+            label: "glass type",
+            data: [481, 368, 171],
+            backgroundColor: ["#d4e5f0", "#c5d2df", "#b0c1d2"],
+            borderColor: ["#d4e5f0", "#c5d2df", "#b0c1d2"],
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        title: {
+          display: true,
+          text: "Glassware Type Preference",
+        },
+      },
+    });
     const chartSeven = document.getElementById("chartSeven");
     new Chart(chartSeven, {
       type: "pie",
@@ -326,7 +347,8 @@ export default function Charts() {
         },
       },
     });
-    const chartEight = document.getElementById("chartEight");
+
+    /*     const chartEight = document.getElementById("chartEight");
     new Chart(chartEight, {
       type: "pie",
       data: {
@@ -348,8 +370,9 @@ export default function Charts() {
           },
         ],
       },
-    });
-    const chartNine = document.getElementById("chartNine");
+    }); */
+
+    /*     const chartNine = document.getElementById("chartNine");
     new Chart(chartNine, {
       type: "pie",
       data: {
@@ -371,7 +394,7 @@ export default function Charts() {
           },
         ],
       },
-    });
+    }); */
   });
   return (
     <div className="jumbotron">
@@ -418,12 +441,12 @@ export default function Charts() {
               </div>
               <div className="col-md-4">
                 <div className="chart">
-                  <canvas id="chartEight" width="50" height="50" />
+                  <canvas id="chartFive" width="50" height="50" />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="chart">
-                  <canvas id="chartNine" width="50" height="50" />
+                  {/*  <canvas id="chartNine" width="50" height="50" /> */}
                 </div>
               </div>
             </div>
