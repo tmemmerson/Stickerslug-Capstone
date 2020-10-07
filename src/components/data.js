@@ -321,10 +321,58 @@ export default function Charts() {
       options: {
         title: {
           display: true,
-          text: "Glassware Type Preference",
+          text: "Glassware Type Popularity",
         },
       },
     });
+
+    const chartSix = document.getElementById("chartSix");
+    new Chart(chartSix, {
+      type: "doughnut",
+      data: {
+        labels: [
+          "gym bag",
+          "v-neck",
+          "crewneck",
+          "onesie",
+          "w. tank",
+          "m. tank",
+          "tote",
+        ],
+        datasets: [
+          {
+            label: "product",
+            data: [346, 1097, 437, 159, 192, 466, 118],
+            backgroundColor: [
+              "#FFD6A5",
+              "#FDFFB6",
+              "#CAFFBF",
+              "#9BF6FF",
+              "#A0C4FF",
+              "#BDB2FF",
+              "#FFC6FF",
+            ],
+            borderColor: [
+              "#FFD6A5",
+              "#FDFFB6",
+              "#CAFFBF",
+              "#9BF6FF",
+              "#A0C4FF",
+              "#BDB2FF",
+              "#FFC6FF",
+            ],
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        title: {
+          display: true,
+          text: "Apparel & Accesories Popularity",
+        },
+      },
+    });
+
     const chartSeven = document.getElementById("chartSeven");
     new Chart(chartSeven, {
       type: "pie",
@@ -343,7 +391,7 @@ export default function Charts() {
       options: {
         title: {
           display: true,
-          text: "Decal Material Preference",
+          text: "Decal Material Popularity",
         },
       },
     });
@@ -435,7 +483,7 @@ export default function Charts() {
                 <div className="jumbotron">
                   {" "}
                   <div className="chart">
-                    <canvas id="chartFive" width="50" height="50" />
+                    <canvas id="chartSix" width="50" height="50" />
                   </div>
                 </div>
               </div>
@@ -449,7 +497,7 @@ export default function Charts() {
               <div className="col-md-4"></div>
               <div className="col-md-4">
                 <div className="chart">
-                  {/*  <canvas id="chartNine" width="50" height="50" /> */}
+                  <canvas id="chartFive" width="50" height="50" />
                 </div>
               </div>
             </div>
