@@ -424,14 +424,21 @@ export default function Charts() {
                 </div>
               </div>
             </div>
+
             <div className="row">
-              <div className="col-md-2"></div>
-              <div className="col-md-8">
+              <div className="col-md-7">
                 <div className="chart">
                   <canvas id="chartThree" width="50" height="50" />
                 </div>
               </div>
-              <div className="col-md-2"></div>
+              <div className="col-md-5">
+                <div className="jumbotron">
+                  {" "}
+                  <div className="chart">
+                    <canvas id="chartFive" width="50" height="50" />
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="row">
               <div className="col-md-4">
@@ -439,11 +446,7 @@ export default function Charts() {
                   <canvas id="chartSeven" width="50" height="50" />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="chart">
-                  <canvas id="chartFive" width="50" height="50" />
-                </div>
-              </div>
+              <div className="col-md-4"></div>
               <div className="col-md-4">
                 <div className="chart">
                   {/*  <canvas id="chartNine" width="50" height="50" /> */}
