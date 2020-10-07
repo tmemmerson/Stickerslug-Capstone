@@ -1,18 +1,27 @@
+import "react-perfect-scrollbar/dist/css/styles.css";
 import React from "react";
-import "./App.css";
-import Products from "./components/Products";
+import { useRoutes } from "react-router-dom";
+import { ThemeProvider } from "@material-ui/core";
+import GlobalStyles from "./components/GlobalStyles";
+import NavBar from "./layouts/DashboardLayout/NavBar";
 
-function App() {
+import theme from "./theme";
+import routes from "./routes";
+
+const App = () => {
+  const routing = useRoutes(routes);
+
   return (
-    <React.Fragment>
+    <ThemeProvider theme={theme}>
       <div className="row">
-        <div className="col-md-3 offset-md1"></div>
-        <div className="col-md-9 offset-md1">
-          <Products />
+        <div className="col-md-3 offset-md">
+          <NavBar />
         </div>
       </div>
-    </React.Fragment>
+      <GlobalStyles />
+      {routing}
+    </ThemeProvider>
   );
-}
+};
 
 export default App;

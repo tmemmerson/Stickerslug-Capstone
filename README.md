@@ -230,3 +230,6 @@ lots of reading and little code unfortunately.
   - ~~imageDecal~~
   - ~~imageOther~~
   - ~~parentData~~
+    <h4 align="left"> 10/06/20</h4>
+
+## chased a bug all day from a detached head error
