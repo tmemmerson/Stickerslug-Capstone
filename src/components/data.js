@@ -396,53 +396,58 @@ export default function Charts() {
       },
     });
 
-    /*     const chartEight = document.getElementById("chartEight");
-    new Chart(chartEight, {
-      type: "pie",
-      data: {
-        labels: ["fuck yes??", "Blue", "Yellow", "Green", "Purple", "Orange"],
-        datasets: [
-          {
-            label: "# of Votes",
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-              "Red",
-              "Blue",
-              "Yellow",
-              "Green",
-              "Purple",
-              "Orange",
-            ],
-            borderColor: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-            borderWidth: 1,
-          },
-        ],
-      },
-    }); */
+    /* 
 
-    /*     const chartNine = document.getElementById("chartNine");
-    new Chart(chartNine, {
-      type: "pie",
+
+    char	1321
+copp	1451
+glow	1507
+pink	1510
+purp	1565
+blue	1807
+reds	2216
+silv	2561
+whit	4682
+blck	5306
+ */
+    const chartEight = document.getElementById("chartEight");
+    new Chart(chartEight, {
+      type: "polarArea",
       data: {
-        labels: ["fuck yes??", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["black", "white", "silver", "red", "blue", "purple", "pink"],
         datasets: [
           {
-            label: "# of Votes",
-            data: [12, 19, 3, 5, 2, 3],
+            label: "product",
+            data: [5306, 4682, 2561, 2216, 1807, 1565, 1510],
             backgroundColor: [
-              "Red",
-              "Blue",
-              "Yellow",
-              "Green",
-              "Purple",
-              "Orange",
+              "#404040",
+              "#FFFFFF",
+              "#CCFFFF",
+              "#FFCCCC",
+              "#CCE5FF",
+              "#CCCCFF",
+              "#FFCCFF",
             ],
-            borderColor: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+            borderColor: [
+              "#404040",
+              "#404040",
+              "#CCFFFF",
+              "#FFCCCC",
+              "#CCE5FF",
+              "#CCCCFF",
+              "#FFCCFF",
+            ],
             borderWidth: 1,
           },
         ],
       },
-    }); */
+      options: {
+        title: {
+          display: true,
+          text: "Product Color Popularity",
+        },
+      },
+    });
   });
   return (
     <div className="jumbotron">
@@ -452,6 +457,7 @@ export default function Charts() {
           <h1>THIS IS MY PERFECT HEADER</h1>
         </div>
       </div>
+
       <div className="row">
         <div className="container">
           <div className="jumbotron jumbotron-fluid">
@@ -480,24 +486,30 @@ export default function Charts() {
                 </div>
               </div>
               <div className="col-md-5">
-                <div className="jumbotron">
-                  {" "}
-                  <div className="chart">
-                    <canvas id="chartSix" width="50" height="50" />
-                  </div>
+                {" "}
+                <div className="chart">
+                  <canvas id="chartEight" width="50" height="50" />
                 </div>
               </div>
             </div>
+
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-5">
                 <div className="chart">
                   <canvas id="chartSeven" width="50" height="50" />
                 </div>
               </div>
-              <div className="col-md-4"></div>
-              <div className="col-md-4">
+
+              <div className="col-md-5">
                 <div className="chart">
                   <canvas id="chartFive" width="50" height="50" />
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-8">
+                <div className="chart">
+                  <canvas id="chartSix" width="50" height="50" />
                 </div>
               </div>
             </div>
