@@ -32,30 +32,30 @@ const ProductForm = (props) => {
     thumbWidthPx: "",
     thumbHeightPx: "",
     imgThmb:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     aspectRatio: "",
     imgSht:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgWin:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgMug:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgGym:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgOne:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgBag:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgVnk:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgCrw:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgGls:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgMat:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     imgCus:
-      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler.jpg",
+      "https://coding-assets.s3-us-west-2.amazonaws.com/backgrounds/filler2.jpg",
     needsEdit: "false",
   };
 
@@ -306,7 +306,7 @@ const ProductForm = (props) => {
       <div className="form-group">
         <input
           type="submit"
-          value={props.currentId === "" ? "Saved" : "Save"}
+          value={props.currentId === "" ? "Update" : "Saved"}
           className="btn btn-primary btn-block"
         />
       </div>

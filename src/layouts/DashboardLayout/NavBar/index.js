@@ -16,18 +16,16 @@ import {
 } from "@material-ui/core";
 import {
   AlertCircle as AlertCircleIcon,
-  BarChart as BarChartIcon,
-  Lock as LockIcon,
-  Settings as SettingsIcon,
-  ShoppingBag as ShoppingBagIcon,
-  User as UserIcon,
-  UserPlus as UserPlusIcon,
-  Users as UsersIcon,
-  Cached as MyCached,
-  Alarm as MyAlarm,
   Build as MyBuild,
 } from "react-feather";
+
 import NavItem from "./NavItem";
+
+import ExploreIcon from "@material-ui/icons/Explore";
+import FaceIcon from "@material-ui/icons/Face";
+import Home from "@material-ui/icons/Home";
+import ShoppingCart from "@material-ui/icons/ShoppingCart";
+import AssessmentOutlinedIcon from "@material-ui/icons/AssessmentOutlined";
 
 const user = {
   avatar: "/static/tristan_emmerson.jpg",
@@ -38,10 +36,25 @@ const user = {
 const items = [
   {
     href: "/",
-    icon: AlertCircleIcon,
+    icon: Home,
     title: "Home",
   },
   {
+    href: "/customers",
+    icon: FaceIcon,
+    title: "Customers",
+  },
+  {
+    href: "/products",
+    icon: ShoppingCart,
+    title: "Products",
+  },
+  {
+    href: "/reports",
+    icon: AssessmentOutlinedIcon,
+    title: "Reports",
+  },
+  /*   {
     href: "/products",
     icon: AlertCircleIcon,
     title: "Products",
@@ -50,32 +63,7 @@ const items = [
     href: "/products",
     icon: AlertCircleIcon,
     title: "Products",
-  },
-  {
-    href: "/products",
-    icon: AlertCircleIcon,
-    title: "Products",
-  },
-  {
-    href: "/products",
-    icon: AlertCircleIcon,
-    title: "Products",
-  },
-  {
-    href: "/products",
-    icon: AlertCircleIcon,
-    title: "Products",
-  },
-  {
-    href: "/products",
-    icon: AlertCircleIcon,
-    title: "Products",
-  },
-  {
-    href: "/products",
-    icon: AlertCircleIcon,
-    title: "Products",
-  },
+  }, */
 ];
 
 const useStyles = makeStyles(() => ({
