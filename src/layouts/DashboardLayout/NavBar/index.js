@@ -50,7 +50,7 @@ const items = [
     title: "Products",
   },
   {
-    href: "/reports",
+    href: "/charts",
     icon: AssessmentOutlinedIcon,
     title: "Reports",
   },
