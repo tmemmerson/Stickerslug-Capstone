@@ -1,16 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>Stickerslug Capstone Product Chart</title>
-  </head>
+import React, { useEffect } from "react";
+import Chart from "chart.js";
 
-  <body>
-
-  </body>
-</html>
+export default function Charts() {
+  useEffect(() => {
+    const ctx = document.getElementById("myChart");
+    new Chart(ctx, {
+      type: "pie",
+      data: {
+        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        datasets: [
+          {
+            label: "# of Votes",
+            data: [12, 19, 3, 5, 2, 3],
+            backgroundColor: [
+              "Red",
+              "Blue",
+              "Yellow",
+              "Green",
+              "Purple",
+              "Orange",
+            ],
+            borderColor: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+            borderWidth: 1,
+          },
+        ],
+      },
+    });
+  });
+  return (
+    <div className="Charts">
+      <canvas id="myChart" width="400" height="400" />
+    </div>
+  );
+}

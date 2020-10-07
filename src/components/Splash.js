@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavBar from "../layouts/DashboardLayout/NavBar";
 
+import "./Splash.css";
+
 function Splash() {
   return (
     <React.Fragment>

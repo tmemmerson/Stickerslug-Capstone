@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Stickerslug Capstone Product Chart</title>
+  </head>
+
+  <body>
+    <div className="container">
+      <canvas id="myChart"></canvas>
+    </div>
+    <script>
+      let myChart = document.getElementById("myChart").getContext("2d");
+      let massPopChart = new Chart(myChart, {
+        type: "bar",
+        data: {
+          labels: ["hi", "no", "1", "2", "3"],
+          datasets: [
+            {
+              label: "Population",
+              data: [444444, 425234, 422222, 542222, 323355],
+              /* backgroundColor: "green", */
+              backgroundColor: ["green", "red", "blue", "purple", "yellow"],
+              borderWidth: 1,
+              borderColor: "#777",
+              hoverBorderWidth: "3",
+              hoverBorderHover: "#999",
+            },
+          ],
+        },
+        options: {},
+      });
+    </script>
+  </body>
+</html>
