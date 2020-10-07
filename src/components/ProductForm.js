@@ -306,7 +306,7 @@ const ProductForm = (props) => {
       <div className="form-group">
         <input
           type="submit"
-          value={props.currentId === "" ? "Update" : "Saved"}
+          value={props.currentId === "" ? "Saved" : "Update"}
           className="btn btn-primary btn-block"
         />
       </div>
