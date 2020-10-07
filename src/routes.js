@@ -2,20 +2,30 @@ import React from "react";
 import { Navigate } from "react-router-dom";
 import Products from "./components/Products";
 import NavBar from "./layouts/DashboardLayout/NavBar";
+import Customers from "./components/Customers";
+import Splash from "./components/Splash";
 const routes = [
   {
-    path: "/",
+    path: "/products",
     element: <Products />,
     children: [
-      { path: "/", element: <Navigate to="/" /> },
+      { path: "/products", element: <Navigate to="/products" /> },
       { path: "*", element: <Navigate to="/404" /> },
     ],
   },
   {
-    path: "/999",
-    element: <NavBar />,
+    path: "/customers",
+    element: <Customers />,
     children: [
-      { path: "/999", element: <Navigate to="/999" /> },
+      { path: "/customers", element: <Navigate to="/customers" /> },
+      { path: "*", element: <Navigate to="/404" /> },
+    ],
+  },
+  {
+    path: "/",
+    element: <Splash />,
+    children: [
+      { path: "/", element: <Navigate to="/" /> },
       { path: "*", element: <Navigate to="/404" /> },
     ],
   },
