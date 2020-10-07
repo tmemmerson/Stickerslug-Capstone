@@ -6,7 +6,6 @@ const Products = () => {
   var [currentId, setCurrentId] = useState("");
   var [productObjects, setProductObjects] = useState({});
 
-  //Once components load complete
   useEffect(() => {
     firebaseDb.child("temp01").on("value", (snapshot) => {
       if (snapshot.val() != null) {
