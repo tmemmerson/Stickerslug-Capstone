@@ -10,18 +10,29 @@ function Splash() {
   return (
     <React.Fragment>
       <div className="row">
+        <div className="col-md-4"></div>
+        <div className="col-md-4 app-chart">
+          <Chart2 />
+        </div>
+
+        <div className="col-md-4">
+          <h4>header3</h4>
+          <p>body3</p>
+        </div>
+      </div>
+      <div className="row">
         <div className="col-md-2"></div>
         <div className="col-md-3 card">
           <div className="container">
             <div className="row">
               <div className="card-header">
-                <h2 align="center">Sales Channels</h2>
+                <h2 align="center">Most Popular</h2>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12">
                 {" "}
-                <i class="fas fa-fire fa-4x fire-icon"></i>
+                <i class="fas fa-fire fa-5x fire-icon"></i>
               </div>
             </div>
           </div>
@@ -30,7 +41,7 @@ function Splash() {
           <div className="container">
             <div className="row">
               <div className="card-header">
-                <h2 align="center">Sales Channels</h2>
+                <h2 align="center">Top Apple Product</h2>
               </div>
             </div>
             <div className="row">
@@ -62,17 +73,6 @@ function Splash() {
             </div>
           </div>
         </div>{" "}
-      </div>
-      <div className="row">
-        <div className="col-md-4"></div>
-        <div className="col-md-4 app-chart">
-          <Chart2 />
-        </div>
-
-        <div className="col-md-4">
-          <h4>header3</h4>
-          <p>body3</p>
-        </div>
       </div>
     </React.Fragment>
   );
