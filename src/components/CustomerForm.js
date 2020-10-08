@@ -120,7 +120,7 @@ const CustomerForm = (props) => {
         <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-mobile-alt"></i>
+              <i className="fas fa-calendar-alt"></i>
             </div>
           </div>
 
