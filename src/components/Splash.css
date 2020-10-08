@@ -65,3 +65,30 @@ h4 {
   background-color: rgb(255, 255, 255);
   font: larger;
 }
+
+.pad-small {
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.amazon-icon {
+  color: #1d1d1d;
+}
+
+.amazon-icon:hover {
+  color: #bdb112;
+}
+.ebay-icon {
+  color: #1d1d1d;
+}
+
+.ebay-icon:hover {
+  color: #273c99;
+}
+.etsy-icon {
+  color: #1d1d1d;
+}
+
+.etsy-icon:hover {
+  color: #aa1919;
+}

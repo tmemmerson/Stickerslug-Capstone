@@ -11,66 +11,54 @@ function Splash() {
     <React.Fragment>
       <div className="row">
         <div className="col-md-2"></div>
-        <div className="col-md-3 card2">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="card-header2"></div>
-                <p>
-                  asdfasd fasdfas dfasd fasdfasdfasdfasd fasdfsad fasdf asdf
-                  asdf asdf asdfasd fasdf asdfasdf asdf asdf asd fsda fasd fasd
-                  fasdf asdf asdf asd f asdfsadf asdfasdf{" "}
-                </p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-5"></div>
-              <div className="col-md-2">
-                <i class="fas fa-fire fa-4x fire-icon"></i>
-              </div>
-              <div className="col-md-5"></div>
-            </div>
-          </div>
-        </div>{" "}
-        <div className="col-md-3 card3">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="card-header3"></div>
-                <p>
-                  asdfasd fasdfas dfasd fasdfasdfasdfasd fasdfsad fasdf asdf
-                  asdf asdf asdfasd fasdf asdfasdf asdf asdf asd fsda fasd fasd
-                  fasdf asdf asdf asd f asdfsadf asdfasdf{" "}
-                </p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-5"></div>
-              <div className="col-md-2">
-                <i class="fab fa-apple fa-5x apple-icon"></i>
-              </div>
-              <div className="col-md-5"></div>
-            </div>
-          </div>
-        </div>
         <div className="col-md-3 card">
           <div className="container">
             <div className="row">
-              <div className="col-md-12">
-                <div className="card-header"></div>
-                <p>
-                  asdfasd fasdfas dfasd fasdfasdfasdfasd fasdfsad fasdf asdf
-                  asdf asdf asdfasd fasdf asdfasdf asdf asdf asd fsda fasd fasd
-                  fasdf asdf asdf asd f asdfsadf asdfasdf{" "}
-                </p>
+              <div className="card-header">
+                <h2 align="center">Sales Channels</h2>
               </div>
             </div>
             <div className="row">
-              <div className="col-md-5"></div>
-              <div className="col-md-2">
+              <div className="col-md-12">
+                {" "}
+                <i class="fas fa-fire fa-4x fire-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>{" "}
+        <div className="col-md-3 card">
+          <div className="container">
+            <div className="row">
+              <div className="card-header">
+                <h2 align="center">Sales Channels</h2>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12">
+                {" "}
                 <i class="fab fa-apple fa-5x apple-icon"></i>
               </div>
-              <div className="col-md-5"></div>
+            </div>
+          </div>
+        </div>{" "}
+        <div className="col-md-3 card">
+          <div className="container">
+            <div className="row">
+              <div className="card-header">
+                <h2 align="center">Sales Channels</h2>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-4">
+                <i class="fab fa-amazon amazon-icon fa-6x"></i>
+              </div>
+              <div className="col-md-4">
+                <i class="fab fa-ebay ebay-icon fa-7x"></i>
+              </div>
+              <div className="col-md-4">
+                {" "}
+                <i class="fab fa-etsy etsy-icon fa-5x"></i>
+              </div>
             </div>
           </div>
         </div>{" "}
