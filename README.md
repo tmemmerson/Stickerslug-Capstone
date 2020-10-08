@@ -57,6 +57,22 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 <br>
 <br>
 
+<h1 align="center">
+Splash Page</h1>
+<img width="900" height="882" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/component-diagrams-01.png">
+
+<h1 align="center">
+Customer Editor</h1>
+<img width="900" height="893" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/component-diagrams-2.png">
+
+<h1 align="center">
+Product Editor</h1>
+<img width="900" height="893" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/component-diagrams-3.png">
+
+<h1 align="center">
+Reports</h1>
+<img width="900" height="1180" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/component-diagrams-4.png">
+
 <h1>
 <h1 align="center">
 ACTIVITY LOG</h1>
@@ -233,12 +249,16 @@ lots of reading and little code unfortunately.
 
 - Maybe Do
 
-  - integrate peripherals for middleware
-  - make demo video
+  - ~~integrate peripherals for middleware~~
+  - ~~finish up component model~~
+  - ~~watch demo day pitch vid~~
+
+<h4 align="left"> 10/08/20</h4>
 
 - Do
-  - write/practice pitch
-  - finish up component model
-  - watch demo day pitch vid
   - something with the channel
   - write up/test install instructions to README
+  - write/practice pitch
+  - make demo video
+
+<img width="220" height="222" src="https://media.tenor.com/images/b87b7273b79f4b60136a86df51b0aa15/tenor.gif">
