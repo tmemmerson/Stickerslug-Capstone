@@ -58,22 +58,7 @@ const CustomerForm = (props) => {
         />
       </div>
       <div className="form-row">
-        <div className="form-group input-group col-md-4">
-          <div className="input-group-prepend">
-            <div className="input-group-text">
-              <i className="fas fa-mobile-alt"></i>
-            </div>
-          </div>
-
-          <input
-            className="form-control"
-            name="Phone"
-            placeholder="Phone"
-            value={values.Phone}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="form-group input-group col-md-2">
+        <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-globe"></i>
@@ -87,7 +72,7 @@ const CustomerForm = (props) => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="form-group input-group col-md-2">
+        <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-flag-usa"></i>
@@ -101,7 +86,7 @@ const CustomerForm = (props) => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="form-group input-group col-md-4">
+        <div className="form-group input-group col-md-5">
           <div className="input-group-prepend">
             <div className="input-group-text">
               <i className="fas fa-city"></i>
@@ -132,10 +117,25 @@ const CustomerForm = (props) => {
             onChange={handleInputChange}
           />
         </div>
+        <div className="form-group input-group col-md-4">
+          <div className="input-group-prepend">
+            <div className="input-group-text">
+              <i className="fas fa-mobile-alt"></i>
+            </div>
+          </div>
+
+          <input
+            className="form-control"
+            name="Phone"
+            placeholder="Phone"
+            value={values.Phone}
+            onChange={handleInputChange}
+          />
+        </div>
         <div className="form-group input-group col-md-3">
           <div className="input-group-prepend">
             <div className="input-group-text">
-              <i className="fas fa-globe"></i>
+              <i className="fas fa-dollar-sign"></i>
             </div>
           </div>
           <input
@@ -146,7 +146,7 @@ const CustomerForm = (props) => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="form-group input-group col-md-6"></div>
+        <div className="form-group input-group col-md-3"></div>
       </div>
       <div className="form-group">
         <input
