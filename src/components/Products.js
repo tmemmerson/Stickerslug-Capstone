@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ProductForm from "./ProductForm";
 import firebaseDb from "../firebase";
 import NavBar from "../layouts/DashboardLayout/NavBar";
+import "./text.css";
 
 const Products = () => {
   var [currentId, setCurrentId] = useState("");
@@ -42,13 +43,11 @@ const Products = () => {
     <>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4 text-center">Product Manager</h1>
+          <h1 className="display-4 text-center manager1">Product Manager</h1>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-2">
-          <NavBar />
-        </div>
+        <div className="col-md-2">{/* <NavBar /> */}</div>
         <div className="col-md-4">
           <ProductForm
             {...{ currentId, productObjects, addOrEdit }}

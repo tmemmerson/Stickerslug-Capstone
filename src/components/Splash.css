@@ -101,3 +101,15 @@ h4 {
   opacity: 0.7;
   padding: 6px;
 }
+
+.styled-text {
+  font-family: "Fredoka One", cursive;
+}
+
+.shirt-icon {
+  color: #2b53aa;
+}
+
+.shirt-icon:hover {
+  color: #214083;
+}
