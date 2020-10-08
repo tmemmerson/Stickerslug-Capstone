@@ -60,6 +60,20 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 <br>
 <br>
 
+# Installation
+
+`cd project_directory`
+
+`npm install`
+
+`npm run build`
+
+`npm run start`
+
+or visit
+
+stickerslug-capstone.web.app
+
 <h1 align="center">
 Splash Page</h1>
 <img width="900" height="882" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/component-diagrams-01.png">
