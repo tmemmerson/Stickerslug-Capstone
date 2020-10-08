@@ -1,4 +1,7 @@
-# _--<h1>Capstone: Stickerslug--_
+<h1 align="center">
+<img width="350" height="52" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/stickerslug-header.png">
+
+# _<h1>Capstone: Stickerslug_
 
 ### --Tristan Emmerson--
 
@@ -56,6 +59,7 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 <br>
 <br>
 <br>
+https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/splash-page.jpg
 
 <h1 align="center">
 Splash Page</h1>
@@ -72,6 +76,22 @@ Product Editor</h1>
 <h1 align="center">
 Reports</h1>
 <img width="900" height="1180" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/component-diagrams-4.png">
+
+<h1 align="center">
+Splash Page</h1>
+<img width="900" height="712" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/splash-page.jpg">
+
+<h1 align="center">
+Customer Manager</h1>
+<img width="900" height="712" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/customer-manager.jpg">
+
+<h1 align="center">
+Product Manager</h1>
+<img width="900" height="712" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/product-manager.jpg">
+
+<h1 align="center">
+Reports</h1>
+<img width="900" height="712" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/reports.jpg">
 
 <h1>
 <h1 align="center">
