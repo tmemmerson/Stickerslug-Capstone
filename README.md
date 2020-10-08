@@ -291,9 +291,4 @@ lots of reading and little code unfortunately.
 - ~~something with the channel~~
 - ~~write up/test install instructions to README~~
 
-- Do
-
-- write/practice pitch
-- make demo video
-
 <img width="220" height="222" src="https://media.tenor.com/images/b87b7273b79f4b60136a86df51b0aa15/tenor.gif">
