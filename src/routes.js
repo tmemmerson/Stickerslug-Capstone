@@ -11,7 +11,7 @@ const routes = [
     element: <Products />,
     children: [
       { path: "/products", element: <Navigate to="/products" /> },
-      { path: "*", element: <Navigate to="/404" /> },
+      { path: "*", element: <Navigate to="/" /> },
     ],
   },
   {
@@ -19,7 +19,7 @@ const routes = [
     element: <Customers />,
     children: [
       { path: "/customers", element: <Navigate to="/customers" /> },
-      { path: "*", element: <Navigate to="/404" /> },
+      { path: "*", element: <Navigate to="/" /> },
     ],
   },
   {
@@ -27,7 +27,7 @@ const routes = [
     element: <Splash />,
     children: [
       { path: "/", element: <Navigate to="/" /> },
-      { path: "*", element: <Navigate to="/404" /> },
+      { path: "*", element: <Navigate to="/" /> },
     ],
   },
   {
@@ -35,7 +35,7 @@ const routes = [
     element: <Charts />,
     children: [
       { path: "/chart", element: <Navigate to="/chart" /> },
-      { path: "*", element: <Navigate to="/404" /> },
+      { path: "*", element: <Navigate to="/" /> },
     ],
   },
 ];

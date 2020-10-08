@@ -60,12 +60,10 @@ const Customers = () => {
                 <th>Customer ID</th>
                 <th>Order Total</th>
                 <th>Name</th>
-                <th>Phone</th>
                 <th>Country</th>
                 <th>State</th>
                 <th>City</th>
                 <th>Zip</th>
-                <th>Last Order Date</th>
               </tr>
             </thead>
             <tbody>
@@ -74,12 +72,10 @@ const Customers = () => {
                   <td>{customerObjects[key].CustomerID}</td>
                   <td>${customerObjects[key].Total}</td>
                   <td>{customerObjects[key].Name}</td>
-                  <td>{customerObjects[key].Phone}</td>
                   <td>{customerObjects[key].Country}</td>
                   <td>{customerObjects[key].State}</td>
                   <td>{customerObjects[key].City}</td>
                   <td>{customerObjects[key].Zip}</td>
-                  <td>{customerObjects[key].LastOrder}</td>
 
                   <td className="bg-light">
                     <a

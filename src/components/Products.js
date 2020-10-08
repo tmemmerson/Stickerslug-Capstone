@@ -59,10 +59,8 @@ const Products = () => {
               <tr>
                 <th>Serial</th>
                 <th>Name</th>
-                <th>Rating</th>
                 <th>Aspect</th>
                 <th>Orientation</th>
-                <th>Oversized</th>
                 <th>Actions</th>
               </tr>
             </thead>
@@ -71,10 +69,8 @@ const Products = () => {
                 <tr key={key}>
                   <td>{productObjects[key].serial}</td>
                   <td>{productObjects[key].baseName}</td>
-                  <td>{productObjects[key].Rating}</td>
                   <td>{productObjects[key].aspectRatio}</td>
                   <td>{productObjects[key].designOrientation}</td>
-                  <td>{productObjects[key].isWin}</td>
                   <td className="bg-light">
                     <a
                       className="btn text-primary"
