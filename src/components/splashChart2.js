@@ -13,7 +13,7 @@ export default function Chart3() {
             label: "quarter",
             data: [0, 21, 23, 29, 27],
 
-            borderColor: ["Red", "Red", "Blue", "Yellow", "Green"],
+            borderColor: ["Red", "Red", "Blue", "Red", "Green"],
             borderWidth: 1,
             barPercentage: 0.7,
           },
