@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavBar from "../layouts/DashboardLayout/NavBar";
+import { faFire } from "@fortawesome/free-solid-svg-icons";
 
 import "./Splash.css";
 
@@ -14,6 +15,7 @@ function Splash() {
         <div className="col-lg-3">
           <h4>header1</h4>
           <p>body1</p>
+          <FontAwesomeIcon className="icon" icon={faFire} size="5x" />
         </div>
         <div className="col-lg-3">
           <h4>header2</h4>
