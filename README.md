@@ -59,7 +59,6 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 <br>
 <br>
 <br>
-https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/splash-page.jpg
 
 <h1 align="center">
 Splash Page</h1>
@@ -274,11 +273,11 @@ lots of reading and little code unfortunately.
   - ~~watch demo day pitch vid~~
 
 <h4 align="left"> 10/08/20</h4>
-
+  - ~~something with the channel~~
+  - ~~write up/test install instructions to README~~
 - Do
-  - something with the channel
-  - write up/test install instructions to README
-  - write/practice pitch
-  - make demo video
+
+- write/practice pitch
+- make demo video
 
 <img width="220" height="222" src="https://media.tenor.com/images/b87b7273b79f4b60136a86df51b0aa15/tenor.gif">
