@@ -4,20 +4,24 @@ import NavBar from "../layouts/DashboardLayout/NavBar";
 import { faFire } from "@fortawesome/free-solid-svg-icons";
 import { faAppleAlt } from "@fortawesome/free-solid-svg-icons";
 import Chart2 from "./splashChart";
+import Chart3 from "./splashChart2";
 import "./Splash.css";
+import ImageCarousel from "./carousel";
 
 function Splash() {
   return (
     <React.Fragment>
       <div className="row">
-        <div className="col-md-4"></div>
-        <div className="col-md-4 app-chart">
+        <ImageCarousel />
+      </div>
+      <div className="row">
+        <div className="col-md-2"></div>
+        <div className="col-md-4">
           <Chart2 />
         </div>
 
-        <div className="col-md-4">
-          <h4>header3</h4>
-          <p>body3</p>
+        <div className="col-md-5">
+          <Chart3 />
         </div>
       </div>
       <div className="row">
