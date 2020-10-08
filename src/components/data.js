@@ -507,9 +507,11 @@ blck	5306
               </div>
             </div>
             <div className="row">
-              <div className="col-md-8">
-                <div className="chart">
-                  <canvas id="chartSix" width="50" height="50" />
+              <div className="jumbotron container-fluid">
+                <div className="col-md-8">
+                  <div className="chart">
+                    <canvas id="chartSix" width="50" height="50" />
+                  </div>
                 </div>
               </div>
             </div>
