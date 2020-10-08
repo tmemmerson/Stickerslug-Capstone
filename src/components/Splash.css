@@ -9,11 +9,32 @@
 }
 
 .fire-icon:hover {
-  color: #c73c19;
+  color: #96290e;
 }
 
 h4 {
   margin: 8% 0 5% 0;
   position: relative;
   align-items: center;
+}
+
+.myCenter {
+  align-items: center;
+}
+.apple-icon {
+  color: #1d1d1d;
+}
+
+.apple-icon:hover {
+  color: #414141;
+}
+
+.card {
+  background-color: rgb(117, 214, 38);
+  opacity: 0.7;
+}
+
+.card-header {
+  background-color: rgb(81, 139, 33);
+  opacity: 0.85;
 }
