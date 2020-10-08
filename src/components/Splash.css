@@ -30,11 +30,38 @@ h4 {
 }
 
 .card {
-  background-color: rgb(117, 214, 38);
+  background-color: rgb(85, 166, 48);
   opacity: 0.7;
+  padding: 6px;
 }
 
 .card-header {
   background-color: rgb(81, 139, 33);
   opacity: 0.85;
+}
+.card2 {
+  background-color: rgb(128, 185, 24);
+  opacity: 0.7;
+  padding: 6px;
+}
+
+.card-header2 {
+  background-color: rgb(81, 139, 33);
+  opacity: 0.85;
+}
+
+.card3 {
+  background-color: rgb(170, 204, 0);
+  opacity: 0.7;
+  padding: 6px;
+}
+
+.card-header3 {
+  background-color: rgb(81, 139, 33);
+  opacity: 0.85;
+}
+
+.app-chart {
+  background-color: rgb(255, 255, 255);
+  font: larger;
 }
