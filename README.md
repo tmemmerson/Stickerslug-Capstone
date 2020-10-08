@@ -287,8 +287,10 @@ lots of reading and little code unfortunately.
   - ~~watch demo day pitch vid~~
 
 <h4 align="left"> 10/08/20</h4>
-  - ~~something with the channel~~
-  - ~~write up/test install instructions to README~~
+
+- ~~something with the channel~~
+- ~~write up/test install instructions to README~~
+
 - Do
 
 - write/practice pitch
