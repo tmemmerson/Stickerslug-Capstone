@@ -1,34 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { Container, Navbar } from "react-bootstrap";
-import "./text.css";
+import React from "react";
+import { Navbar } from "react-bootstrap";
+import "../theme/Text.css";
+
 function TopNav() {
   return (
-    /*     <React.Fragment>
-      <div className="row manager3">
-        <Navbar
-          expand="xlg"
-          variant="light"
-          bg="success"
-          fixed="top"
-          class="styled-text"
-        >
-          <Navbar.Brand href="#">Stickerslug</Navbar.Brand>
-        </Navbar>
-      </div>
-    </React.Fragment> */
     <>
-      {/*       <Navbar bg="dark">
-        <Navbar.Brand href="#home">
-          <img
-            src="/logo.svg"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-            alt="React Bootstrap logo"
-          />
-        </Navbar.Brand>
-      </Navbar>
-      <br /> */}
       <Navbar bg="red" variant="red">
         <Navbar.Brand href="#home">
           <img

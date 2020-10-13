@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavBar from "../layouts/DashboardLayout/NavBar";
 
@@ -44,3 +44,4 @@ function Splash() {
 }
 
 export default Splash;
+ */

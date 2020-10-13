@@ -20,13 +20,16 @@ const CustomerForm = (props) => {
 
   var [values, setValues] = useState(initialFieldValues);
 
-  useEffect(() => {
-    if (props.currentId == "") setValues({ ...initialFieldValues });
-    else
-      setValues({
-        ...props.customerObjects[props.currentId],
-      });
-  }, [props.currentId, props.customerObjects]);
+  useEffect(
+    (initialFieldValues) => {
+      if (props.currentId === "") setValues({ ...initialFieldValues });
+      else
+        setValues({
+          ...props.customerObjects[props.currentId],
+        });
+    },
+    [props.currentId, props.customerObjects]
+  );
 
   const handleInputChange = (e) => {
     var { name, value } = e.target;
@@ -151,7 +154,7 @@ const CustomerForm = (props) => {
       <div className="form-group">
         <input
           type="submit"
-          value={props.currentId == "" ? "Saved" : "Update"}
+          value={props.currentId === "" ? "Saved" : "Update"}
           className="btn btn-primary btn-block"
         />
       </div>

@@ -1,10 +1,9 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
-import Products from "./components/Products";
-import NavBar from "./layouts/DashboardLayout/NavBar";
-import Customers from "./components/Customers";
-import Splash from "./components/Splash";
-import Charts from "./components/data";
+import Products from "./components/Views/ProductEditor/Products";
+import Customers from "./components/Views/CustomerEditor/Customers";
+import Splash from "./components/Views/Home/Splash";
+import Charts from "./components/Views/Reports/Data";
 const routes = [
   {
     path: "/products",

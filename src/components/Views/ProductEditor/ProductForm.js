@@ -61,13 +61,16 @@ const ProductForm = (props) => {
 
   var [values, setValues] = useState(initialFieldValues);
 
-  useEffect(() => {
-    if (props.currentId == "") setValues({ ...initialFieldValues });
-    else
-      setValues({
-        ...props.productObjects[props.currentId],
-      });
-  }, [props.currentId, props.productObjects]);
+  useEffect(
+    (initialFieldValues) => {
+      if (props.currentId === "") setValues({ ...initialFieldValues });
+      else
+        setValues({
+          ...props.productObjects[props.currentId],
+        });
+    },
+    [props.currentId, props.productObjects]
+  );
 
   const handleInputChange = (e) => {
     var { name, value } = e.target;
@@ -318,7 +321,7 @@ const ProductForm = (props) => {
               src={values.imgThmb}
               width={140}
               height={140}
-              alt="thumbnail image"
+              alt="thumbnail"
             />
           </td>
         </div>
@@ -329,7 +332,7 @@ const ProductForm = (props) => {
               src={values.imgGls}
               width={140}
               height={140}
-              alt="thumbnail image"
+              alt="gloss decal sticker"
             />
           </td>
         </div>
@@ -340,7 +343,7 @@ const ProductForm = (props) => {
               src={values.imgCus}
               width={140}
               height={140}
-              alt="thumbnail image"
+              alt="custom decal"
             />
           </td>
         </div>
@@ -353,7 +356,7 @@ const ProductForm = (props) => {
               src={values.imgSht}
               width={140}
               height={141}
-              alt="thumbnail image"
+              alt="shot glass"
             />
           </td>
         </div>
@@ -364,19 +367,14 @@ const ProductForm = (props) => {
               src={values.imgOne}
               width={140}
               height={140}
-              alt="thumbnail image"
+              alt="baby onesie"
             />
           </td>
         </div>
         <div className="col-md-4">
           <td>
             {" "}
-            <img
-              src={values.imgMug}
-              width={140}
-              height={140}
-              alt="thumbnail image"
-            />
+            <img src={values.imgMug} width={140} height={140} alt="beer mug" />
           </td>
         </div>
       </div>
@@ -384,34 +382,19 @@ const ProductForm = (props) => {
         <div className="col-md-4">
           <td>
             {" "}
-            <img
-              src={values.imgVnk}
-              width={140}
-              height={140}
-              alt="thumbnail image"
-            />
+            <img src={values.imgVnk} width={140} height={140} alt="v-neck" />
           </td>
         </div>
         <div className="col-md-4">
           <td>
             {" "}
-            <img
-              src={values.imgCrw}
-              width={140}
-              height={140}
-              alt="thumbnail image"
-            />
+            <img src={values.imgCrw} width={140} height={140} alt="crewneck" />
           </td>
         </div>
         <div className="col-md-4">
           <td>
             {" "}
-            <img
-              src={values.imgBag}
-              width={140}
-              height={140}
-              alt="thumbnail image"
-            />
+            <img src={values.imgBag} width={140} height={140} alt="gym bag" />
           </td>
         </div>
       </div>

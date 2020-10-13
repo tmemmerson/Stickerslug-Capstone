@@ -1,12 +1,8 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import NavBar from "../layouts/DashboardLayout/NavBar";
-import { faFire } from "@fortawesome/free-solid-svg-icons";
-import { faAppleAlt } from "@fortawesome/free-solid-svg-icons";
-import Chart2 from "./splashChart";
-import Chart3 from "./splashChart2";
-import "./Splash.css";
-import ImageCarousel from "./carousel";
+import Chart2 from "./SplashChart";
+import Chart3 from "./SplashChart2";
+import "../../../theme/Splash.css";
+import ImageCarousel from "./Carousel";
 
 function Splash() {
   return (

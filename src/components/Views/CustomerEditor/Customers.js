@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from "react";
-import ProductForm from "./ProductForm";
-import firebaseDb from "../firebase";
-import NavBar from "../layouts/DashboardLayout/NavBar";
-import "./text.css";
+import CustomerForm from "./CustomerForm";
+import firebaseDb from "../../../firebase";
+import "../../../theme/Text.css";
 
-const Products = () => {
+const Customers = () => {
   var [currentId, setCurrentId] = useState("");
-  var [productObjects, setProductObjects] = useState({});
+  var [customerObjects, setProductObjects] = useState({});
 
   useEffect(() => {
-    firebaseDb.child("temp01").on("value", (snapshot) => {
+    firebaseDb.child("temp02").on("value", (snapshot) => {
       if (snapshot.val() != null) {
         setProductObjects({
           ...snapshot.val(),
@@ -19,20 +18,20 @@ const Products = () => {
   }, []);
 
   const addOrEdit = (obj) => {
-    if (currentId == "")
-      firebaseDb.child("temp01").push(obj, (err) => {
+    if (currentId === "")
+      firebaseDb.child("temp02").push(obj, (err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
     else
-      firebaseDb.child(`temp01/${currentId}`).set(obj, (err) => {
+      firebaseDb.child(`temp02/${currentId}`).set(obj, (err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
   };
   const onDelete = (id) => {
-    if (window.confirm("Are you sure to delete this record?")) {
-      firebaseDb.child(`temp01/${id}`).remove((err) => {
+    if (window.confirm("Are you sure about deleting this customer?")) {
+      firebaseDb.child(`temp02/${id}`).remove((err) => {
         if (err) console.log(err);
         else setCurrentId("");
       });
@@ -43,34 +42,40 @@ const Products = () => {
     <>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4 text-center manager1">Product Manager</h1>
+          <h1 className="display-4 text-center manager1">Customer Manager</h1>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-2">{/* <NavBar /> */}</div>
+        <div className="col-md-2"></div>
         <div className="col-md-4">
-          <ProductForm
-            {...{ currentId, productObjects, addOrEdit }}
-          ></ProductForm>
+          <CustomerForm
+            {...{ currentId, customerObjects, addOrEdit }}
+          ></CustomerForm>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-5">
           <table className="table table-borderless table-stripped">
             <thead className="thead-light">
               <tr>
-                <th>Serial</th>
+                <th>Customer ID</th>
+                <th>Order Total</th>
                 <th>Name</th>
-                <th>Aspect</th>
-                <th>Orientation</th>
-                <th>Actions</th>
+                <th>Country</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Zip</th>
               </tr>
             </thead>
             <tbody>
-              {Object.keys(productObjects).map((key) => (
+              {Object.keys(customerObjects).map((key) => (
                 <tr key={key}>
-                  <td>{productObjects[key].serial}</td>
-                  <td>{productObjects[key].baseName}</td>
-                  <td>{productObjects[key].aspectRatio}</td>
-                  <td>{productObjects[key].designOrientation}</td>
+                  <td>{customerObjects[key].CustomerID}</td>
+                  <td>${customerObjects[key].Total}</td>
+                  <td>{customerObjects[key].Name}</td>
+                  <td>{customerObjects[key].Country}</td>
+                  <td>{customerObjects[key].State}</td>
+                  <td>{customerObjects[key].City}</td>
+                  <td>{customerObjects[key].Zip}</td>
+
                   <td className="bg-light">
                     <a
                       className="btn text-primary"
@@ -99,4 +104,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Customers;

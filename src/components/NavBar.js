@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   Avatar,
   Box,
-  Button,
   Divider,
   Drawer,
   Hidden,
@@ -14,14 +12,8 @@ import {
   Typography,
   makeStyles,
 } from "@material-ui/core";
-import {
-  AlertCircle as AlertCircleIcon,
-  Build as MyBuild,
-} from "react-feather";
 
 import NavItem from "./NavItem";
-
-import ExploreIcon from "@material-ui/icons/Explore";
 import FaceIcon from "@material-ui/icons/Face";
 import Home from "@material-ui/icons/Home";
 import ShoppingCart from "@material-ui/icons/ShoppingCart";
@@ -29,7 +21,7 @@ import AssessmentOutlinedIcon from "@material-ui/icons/AssessmentOutlined";
 
 const user = {
   avatar: "/static/tristan_emmerson.jpg",
-  jobTitle: "Full-Stack Programmer",
+  jobTitle: "Software Engineer",
   name: "Tristan Emmerson",
 };
 
@@ -54,16 +46,6 @@ const items = [
     icon: AssessmentOutlinedIcon,
     title: "Reports",
   },
-  /*   {
-    href: "/products",
-    icon: AlertCircleIcon,
-    title: "Products",
-  },
-  {
-    href: "/products",
-    icon: AlertCircleIcon,
-    title: "Products",
-  }, */
 ];
 
 const useStyles = makeStyles(() => ({

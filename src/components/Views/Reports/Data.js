@@ -396,20 +396,6 @@ export default function Charts() {
       },
     });
 
-    /* 
-
-
-    char	1321
-copp	1451
-glow	1507
-pink	1510
-purp	1565
-blue	1807
-reds	2216
-silv	2561
-whit	4682
-blck	5306
- */
     const chartEight = document.getElementById("chartEight");
     new Chart(chartEight, {
       type: "polarArea",
