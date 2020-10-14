@@ -30,19 +30,27 @@ MVP:</h1>
 A database that is single-field queryable for "raw data" of a parent product sku.
 Products information is queryable at a basal serial level.
 
-What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
-
 - Firebase database
 - React client interface
 - VSCode to write it all
 - Bootstrap to make it pretty
 
-<h1></h1>
+<h1>Technologies Used:</h1>
+
+- Visual Studio Code
+- React
+- Google Realtime Database
+- Firebase Hosting
+- Material UI
+- Bootstrap
+- Amazon S3
+- Microsoft Excel
+- Adobe Photoshop
+- Figma
+- React Chart.js 2
 
 <h1 align="left">
 Stretch Goals:</h1>
-
-If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
 - Seed some portion of child data points for variants
 - Add photo representation of queried product.
