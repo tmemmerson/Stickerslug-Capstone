@@ -52,26 +52,16 @@ Products information is queryable at a basal serial level.
 <h1 align="left">
 Stretch Goals:</h1>
 
-- Seed some portion of child data points for variants
-- Add photo representation of queried product.
+- ~~Seed some portion of child data points for variants~~
+- ~~Add photo representation of queried product.~~
 - Add marketplace specified field headers for parent data.
-- Create exportable reports that interface with various marketplaces (amz/etsy/ebay/.com) and follow their product data format.
-- Interface with AMZ SellerCentral API for product information update.
+- Create exportable reports that interface with various marketplaces
+- AMZ SellerCentral API for product information update.
 - admin authentication
+- ~~implement visualizations for data~~
+- ~~Add customer editing functionality~~
+- ~~Use custom work and customer submitted photos in gallery~~
 
-What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
-
-- Adobe Photoshop
-- Adobe Illustrator
-- AMZ S3
-- Seller Central API
-- eBay API
-- Etsy API (I don't think this one actually exists, but possibly 3rd-party)
-- Entity framework
-
-<br>
-<br>
-<br>
 <br>
 
 # Installation
@@ -83,10 +73,6 @@ What additional tools, frameworks, libraries, APIs, or other resources will thes
 `npm run build`
 
 `npm run start`
-
-or visit
-
-stickerslug-capstone.web.app
 
 <h1 align="center">
 Splash Page</h1>
