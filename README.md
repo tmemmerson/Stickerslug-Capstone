@@ -225,29 +225,9 @@ middleware (i think that's what it would be) to handle that. just pass the json 
   - ~~resume~~/~~cover~~
   - ~~email docs~~
 
-<h4 align="left"> 10/03/20</h4>
-
-- ~~Tura Labs~~
-  - ~~research~~
-  - ~~resume~~/~~cover~~
-  - ~~email docs~~
-- ~~Go Paladin~~
-  - ~~research~~
-  - ~~resume~~/~~cover~~
-  - ~~email docs~~
-- ~~Goalden Hour~~
-  - ~research~~
-  - ~~resume~~/~~cover~~
-  - ~~email docs~~
-- ~KhulaCo~~
-  - ~~research~~
-  - ~~resume~~/~~cover~~
-  - ~~email docs~~
-- ~~side thought: I need to quick netlify domains i have in 101~~
-
 <h4 align="left"> 10/04/20</h4>
 
-lots of reading and little code unfortunately.
+lots of reading and little code.
 
 <h4 align="left"> 10/05/20</h4>
 
@@ -274,9 +254,10 @@ lots of reading and little code unfortunately.
   - ~~imageDecal~~
   - ~~imageOther~~
   - ~~parentData~~
-    <h4 align="left"> 10/06/20</h4>
 
-## chased a bug all day from a detached head error
+<h4 align="left"> 10/06/20</h4>
+
+### chased a bug all day from a detached head error
 
 <h4 align="left"> 10/07/20</h4>
 
