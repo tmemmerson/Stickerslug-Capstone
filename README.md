@@ -11,9 +11,13 @@
 
 <h1 align="left">
 Purpose/Goal:</h1>
+
 - As an admin I want to be able to delete the hundreds of spreadsheets I am currently using to manage all of our product data
+
 - As an admin I want to be able to inventorize all of my product data
+
 - As an admin I want to be able to query data at a granular level (deep skus)
+
 - As an admin I want to be able to query more complex ranges of products by field data
 
 Pain Point: As my business scaled over the years, my inventory system could not keep pace with the quantity of products Stickerslug was offering. Updating and making changes became arduous and time-consuming.
