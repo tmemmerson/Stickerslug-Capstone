@@ -1,6 +1,8 @@
 <h1 align="center">
 <img width="350" height="52" src="https://coding-assets.s3-us-west-2.amazonaws.com/capstone/misc/stickerslug-header.png">
 
+[LIVE DEMO](https://stickerslug-capstone.web.app/)
+
 # _<h1>Capstone: Stickerslug_
 
 ### --Tristan Emmerson--
